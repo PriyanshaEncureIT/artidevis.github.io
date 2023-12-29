@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <style>
+        body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-dm-sans: "DM Sans";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-2xs: 11px;
+  --font-size-xs: 12px;
+  --font-size-lg: 18px;
+  --font-size-9xl: 28px;
+  --font-size-4xs: 9px;
+  --font-size-mini: 15px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-darkslategray: #1f2e4c;
+  --color-gray-100: #fefeff;
+  --color-dimgray: #565656;
+  --dark-white: #fffaf4;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gainsboro: #cfe0e3;
+  --color-powderblue: #cbe4e9;
+  --dark-purple: #976de3;
+
+  /* Gaps */
+  --gap-8xs: 5px;
+  --gap-3xs: 10px;
+  --gap-9xs: 4px;
+  --gap-mini: 15px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-5xs: 8px;
+  --padding-7xs: 6px;
+  --padding-lgi: 19px;
+  --padding-4xs-5: 8.5px;
+  --padding-3xl: 22px;
+
+  /* Border radiuses */
+  --br-base: 16px;
+  --br-11xl: 30px;
+  --br-21xl: 40px;
+
+  /* Effects */
+  --shadow-pop-in-2: -6px 10px 22px rgba(0, 0, 0, 0.25);
+  --shadow-pop-in: 0px 12px 9px rgba(0, 0, 0, 0.12);
+}
+
+        .freelance {
+  position: relative;
+  font-weight: 500;
+}
+.clickable-options,
+.clickable-options1 {
+  position: absolute;
+  top: calc(50% - 15px);
+  left: 852px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-powderblue);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  width: 225px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-3xs);
+}
+.clickable-options1 {
+  left: 1082px;
+  background-color: var(--color-darkslategray);
+  color: var(--color-gray-100);
+}
+.web-1-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.language {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 1333px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7px;
+}
+.artidevis-logo-04-04-1-icon {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 163px;
+  height: 60px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.clickable-options-parent {
+  top: 0;
+  background-color: var(--color-gainsboro);
+  height: 60px;
+  overflow: hidden;
+  color: var(--color-darkslategray);
+}
+.clickable-options-parent,
+.frame-child,
+.landing-page-inner {
+  position: absolute;
+  left: 0;
+  width: 1440px;
+}
+.frame-child {
+  top: -3px;
+  height: 517px;
+  object-fit: cover;
+}
+.landing-page-inner {
+  top: 231px;
+  height: 443px;
+  overflow: hidden;
+}
+.vous-tes {
+  position: absolute;
+  top: 17px;
+  left: calc(50% - 118px);
+  font-weight: 500;
+}
+.clickable-options2 {
+  position: absolute;
+  top: 46px;
+  left: calc(50% - 113px);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkslategray);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  width: 225px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  color: var(--color-gray-100);
+}
+.vous-tes-la-recherche-dun-parent {
+  position: absolute;
+  top: 90px;
+  left: 373px;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-100);
+  width: 342px;
+  height: 106px;
+  overflow: hidden;
+}
+.vous-tes1 {
+  position: absolute;
+  top: 17px;
+  left: calc(50% - 91.5px);
+  font-weight: 500;
+}
+.clickable-options3 {
+  position: absolute;
+  top: 46px;
+  left: calc(50% - 112.5px);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkslategray);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  width: 225px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  color: var(--color-gray-100);
+}
+.vous-tes-la-recherche-de-de-parent {
+  position: absolute;
+  top: 90px;
+  left: 725px;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-100);
+  width: 343px;
+  height: 106px;
+  overflow: hidden;
+}
+.clickable-options4 {
+  position: absolute;
+  top: 528px;
+  left: calc(50% - 113px);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-powderblue);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 225px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  color: var(--color-darkslategray);
+}
+.landing-page-child {
+  top: 226px;
+  background-color: var(--color-gainsboro);
+  height: 5px;
+}
+.landing-page-child,
+.landing-page-item,
+.rectangle-div {
+  position: absolute;
+  left: 0;
+  width: 1440px;
+}
+.landing-page-item {
+  top: 1283px;
+  background-color: var(--color-gainsboro);
+  height: 5px;
+}
+.rectangle-div {
+  top: 1288px;
+  background-color: #fcfcfd;
+  height: 425px;
+}
+.chevron-left-3-icon,
+.chevron-right-2-icon {
+  position: absolute;
+  top: 1485px;
+  left: 339px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.chevron-right-2-icon {
+  left: 1078px;
+}
+.je-suis-un {
+  position: absolute;
+  top: 1302px;
+  left: 373px;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray);
+}
+.titre {
+  position: relative;
+}
+.chevron-down-1-icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.field {
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-dimgray);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-7xs) var(--padding-lgi) var(--padding-7xs)
+    var(--padding-3xs);
+  font-size: var(--font-size-2xs);
+  color: var(--color-dimgray);
+}
+.categorie,
+.title-field {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.title-field {
+  align-self: stretch;
+  gap: var(--gap-9xs);
+}
+.categorie {
+  position: absolute;
+  top: 372px;
+  left: 373px;
+  width: 342px;
+  max-width: 500px;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+}
+.magnify-1-icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  display: none;
+}
+.field1,
+.research1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.field1 {
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-dimgray);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.research1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.vector-icon {
+  position: relative;
+  width: 13px;
+  height: 13px;
+  object-fit: cover;
+}
+.research,
+.search {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.search {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkslategray);
+  overflow: hidden;
+  display: none;
+  padding: var(--padding-4xs-5) var(--padding-3xl);
+}
+.research {
+  align-self: stretch;
+  display: flex;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-2xs);
+  color: var(--color-dimgray);
+}
+.rechercher-par-mot-cls {
+  position: relative;
+  font-size: var(--font-size-4xs);
+  font-weight: 500;
+  color: var(--color-white);
+}
+.barre {
+  position: absolute;
+  top: 437px;
+  left: 373px;
+  width: 342px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+}
+.field-parent,
+.field2,
+.field3 {
+  display: flex;
+  flex-direction: row;
+}
+.field2 {
+  flex: 1;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  height: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs-5) var(--padding-3xs);
+}
+.field-parent,
+.field3 {
+  align-items: center;
+}
+.field3 {
+  flex: 1;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-darkslategray);
+  justify-content: space-between;
+  padding: var(--padding-7xs) var(--padding-lgi) var(--padding-7xs)
+    var(--padding-3xs);
+}
+.field-parent {
+  align-self: stretch;
+  height: 30px;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-2xs);
+  color: var(--color-darkslategray);
+}
+.localisation,
+.title-field1 {
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.title-field1 {
+  gap: var(--gap-9xs);
+}
+.localisation {
+  top: 372px;
+  left: 725px;
+  max-width: 500px;
+  font-size: var(--font-size-xs);
+}
+.cest-gratuit-pour,
+.localisation,
+.type-de-batiment {
+  position: absolute;
+  color: var(--color-gray-100);
+}
+.type-de-batiment {
+  top: 437px;
+  left: 725px;
+  width: 343px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 500px;
+  font-size: var(--font-size-xs);
+}
+.cest-gratuit-pour {
+  top: 588px;
+  left: 489px;
+  font-weight: 500;
+  display: inline-block;
+  width: 461px;
+}
+.je-suis-un1 {
+  position: absolute;
+  top: 249px;
+  left: 373px;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.puisque-nous-avons {
+  position: absolute;
+  top: 883px;
+  left: 373px;
+  font-weight: 500;
+  display: inline-block;
+  width: 694px;
+}
+.recherchez-un-artisan {
+  position: absolute;
+  top: 308px;
+  left: 373px;
+  font-size: 38px;
+  color: var(--color-gray-100);
+}
+.pour-tous-types,
+.recommands-par-nos {
+  position: absolute;
+  top: 704px;
+  left: 373px;
+  font-size: var(--font-size-9xl);
+}
+.recommands-par-nos {
+  top: 833px;
+}
+.rue-de-la {
+  margin: 0;
+}
+.aide,
+.contact,
+.menu,
+.rue-de-la-joie-29384-aix-en-jo-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rue-de-la-joie-29384-aix-en-jo-parent {
+  flex-shrink: 0;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-mini);
+}
+.aide,
+.contact,
+.menu {
+  position: absolute;
+  top: 33px;
+  left: 847px;
+  gap: var(--gap-mini);
+}
+.aide,
+.menu {
+  left: 465px;
+}
+.aide {
+  left: 689px;
+}
+.contact-parent {
+  position: absolute;
+  bottom: -52px;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  width: 1440px;
+  height: 218px;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.field5,
+.frame-1-caroussel-child {
+  background-color: var(--color-gray-100);
+}
+.frame-1-caroussel-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  box-shadow: var(--shadow-pop-in);
+  width: 695px;
+  height: 327px;
+}
+.field5 {
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  border: 1px solid var(--color-darkslategray);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-7xs) var(--padding-lgi) var(--padding-7xs)
+    var(--padding-3xs);
+  font-size: var(--font-size-2xs);
+  color: var(--color-dimgray);
+}
+.categorie1,
+.field6,
+.research2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.categorie1 {
+  width: 323px;
+  height: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 500px;
+}
+.field6,
+.research2 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.field6 {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-darkslategray);
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.research2 {
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-2xs);
+}
+.rechercher-par-mot-cls1 {
+  position: relative;
+  font-size: var(--font-size-4xs);
+  font-weight: 500;
+  color: var(--color-dimgray);
+}
+.barre1,
+.field-group {
+  width: 323px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.field-group {
+  height: 30px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-2xs);
+}
+.localisation2,
+.title-field4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.title-field4 {
+  gap: var(--gap-9xs);
+}
+.localisation2 {
+  width: 323px;
+  max-width: 500px;
+}
+.clickable-options5 {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkslategray);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  width: 225px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  font-size: var(--font-size-2xs);
+  color: var(--color-gray-100);
+}
+.recherche {
+  position: absolute;
+  top: 9px;
+  left: 342px;
+  border-radius: 12px;
+  background-color: #daeaed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray);
+}
+.inscrivez-vous-et-choisissez-container {
+  position: absolute;
+  top: 102px;
+  left: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 306px;
+}
+.recherchez-des-devis {
+  position: absolute;
+  top: 41px;
+  left: 20px;
+  font-size: var(--font-size-9xl);
+}
+.clickable-options6 {
+  position: absolute;
+  top: calc(50% + 79.5px);
+  left: 60px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkslategray);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  width: 225px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  color: var(--color-gray-100);
+}
+.frame-1-caroussel {
+  position: absolute;
+  top: 1334px;
+  left: 373px;
+  width: 695px;
+  height: 327px;
+}
+.charpenterie,
+.electricit,
+.jardin,
+.nettoyage,
+.peinture {
+  position: absolute;
+  top: 760px;
+  left: 377px;
+  font-size: var(--font-size-lg);
+}
+.charpenterie,
+.electricit,
+.jardin,
+.peinture {
+  left: 538px;
+}
+.charpenterie,
+.electricit,
+.jardin {
+  left: 682px;
+}
+.charpenterie,
+.electricit {
+  left: 800px;
+}
+.electricit {
+  left: 970px;
+}
+.donnez-votre-avis-sur-la-prest-wrapper,
+.field10 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.donnez-votre-avis-sur-la-prest-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+}
+.field10 {
+  position: absolute;
+  top: 18px;
+  left: 10px;
+  width: 675px;
+  flex-direction: column;
+  font-size: var(--font-size-xs);
+}
+.star-icon {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.stars {
+  flex-direction: row;
+  gap: var(--gap-8xs);
+}
+.description-field,
+.note,
+.stars {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.description-field {
+  align-self: stretch;
+  border-radius: 10px;
+  background-color: var(--color-gray-100);
+  height: 95px;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.note {
+  position: absolute;
+  top: 49px;
+  left: 10px;
+  width: 675px;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  color: var(--color-darkslategray);
+}
+.ajoutez-des-photos {
+  position: relative;
+  font-size: var(--font-size-xs);
+}
+.etat-surfaces,
+.field11 {
+  display: flex;
+  gap: var(--gap-8xs);
+}
+.field11 {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-100);
+  border: 1px dashed var(--color-dimgray);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 26.5px var(--padding-3xs);
+  color: var(--color-dimgray);
+}
+.etat-surfaces {
+  position: absolute;
+  top: 191px;
+  left: 10px;
+  width: 675px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-gray-100);
+}
+.field-container {
+  position: absolute;
+  top: 931px;
+  left: 373px;
+  border-radius: var(--br-base);
+  background-color: var(--color-darkslategray);
+  box-shadow: var(--shadow-pop-in-2);
+  width: 695px;
+  height: 322px;
+  overflow: hidden;
+  color: var(--dark-white);
+}
+.landing-page {
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #d7e9ec 21.53%,
+    #d9eaed 48.06%,
+    #f1f4f5 84.73%
+  );
+  width: 100%;
+  height: 1882px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+  font-family: var(--font-dm-sans);
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="landing-page">
+      <div class="clickable-options-parent">
+        <div class="clickable-options">
+          <div class="freelance">Me connecter</div>
+        </div>
+        <div class="clickable-options1">
+          <div class="freelance">Créer mon compte</div>
+        </div>
+        <div class="language">
+          <img class="web-1-icon" alt="" src="./public/web-1@2x.png" />
+
+          <div class="freelance">Français</div>
+        </div>
+        <img
+          class="artidevis-logo-04-04-1-icon"
+          alt=""
+          src="./public/artidevis-logo0404-1@2x.png"
+        />
+      </div>
+      <div class="landing-page-inner">
+        <img class="frame-child" alt="" src="./public/rectangle-291@2x.png" />
+      </div>
+        <div class="vous-tes-la-recherche-dun-parent">
+            <div class="vous-tes">
+            Vous êtes à la recherche d’un professionnel ?
+            </div>
+            <div class="clickable-options2">
+            <div class="freelance">Cliquez ici</div>
+            </div>
+        </div>
+        <div class="vous-tes-la-recherche-de-de-parent">
+            <div class="vous-tes1">Vous êtes à la recherche de devis ?</div>
+            <div class="clickable-options3">
+            <div class="freelance">Cliquez ici</div>
+            </div>
+        </div>
+      <div class="clickable-options4">
+        <div class="freelance">Rechercher</div>
+      </div>
+      <div class="landing-page-child"></div>
+      <div class="landing-page-item"></div>
+      <div class="rectangle-div"></div>
+      <img
+        class="chevron-left-3-icon"
+        alt=""
+        src="./public/chevronleft-3@2x.png"
+      />
+
+      <img
+        class="chevron-right-2-icon"
+        alt=""
+        src="./public/chevronright-2@2x.png"
+      />
+
+      <b class="je-suis-un">Je suis un professionnel</b>
+      <div class="categorie">
+        <div class="title-field">
+          <b class="titre">Catégorie</b>
+          <div class="field">
+            <div class="titre">Sélectionner dans la liste</div>
+            <img
+              class="chevron-down-1-icon"
+              alt=""
+              src="./public/chevrondown-1@2x.png"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="barre">
+        <b class="titre">Nom</b>
+        <div class="research">
+          <div class="research1">
+            <div class="field1">
+              <div class="titre">Profession / Nom</div>
+              <img
+                class="magnify-1-icon"
+                alt=""
+                src="./public/magnify-1@2x.png"
+              />
+            </div>
+          </div>
+          <div class="search">
+            <img class="vector-icon" alt="" src="./public/vector@2x.png" />
+          </div>
+        </div>
+        <div class="rechercher-par-mot-cls">Rechercher par mot-clés</div>
+      </div>
+      <div class="localisation">
+        <div class="title-field1">
+          <b class="titre">Localisation</b>
+          <div class="field-parent">
+            <div class="field2">
+              <div class="titre">Ville principale</div>
+            </div>
+            <div class="field3">
+              <div class="titre">10 km</div>
+              <img
+                class="chevron-down-1-icon"
+                alt=""
+                src="./public/chevrondown-1@2x.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="type-de-batiment">
+        <div class="title-field">
+          <b class="titre">Type de bâtiment</b>
+          <div class="field">
+            <div class="titre">Sélectionner dans la liste</div>
+            <img
+              class="chevron-down-1-icon"
+              alt=""
+              src="./public/chevrondown-1@2x.png"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="cest-gratuit-pour">
+        C’est gratuit pour les particuliers. Postez votre demande de devis ou
+        cherchez un artisan en utilisant le filtre avancé
+      </div>
+      <b class="je-suis-un1">Je suis un particulier</b>
+      <div class="puisque-nous-avons">
+        Puisque nous avons conscience que ça marche surtout au bouche à oreille,
+        vous pouvez recommander les artisans et donner votre avis sur leur
+        prestation. Cette démarche est importante pour nous afin de vous
+        proposer les meilleurs artisans.
+      </div>
+      <b class="recherchez-un-artisan">Recherchez un artisan</b>
+      <b class="pour-tous-types">Pour tous types de travaux comme</b>
+      <b class="recommands-par-nos">Recommandés par nos utilisateurs</b>
+      <div class="contact-parent">
+        <div class="contact">
+          <b class="titre">Contact</b>
+          <div class="rue-de-la-joie-29384-aix-en-jo-parent">
+            <div class="freelance">
+              <p class="rue-de-la">15 rue de la Joie</p>
+              <p class="rue-de-la">29384 Aix en Joie</p>
+            </div>
+            <div class="freelance">+33 4 89 37 29 98</div>
+          </div>
+        </div>
+        <div class="menu">
+          <b class="titre">Menu</b>
+          <div class="rue-de-la-joie-29384-aix-en-jo-parent">
+            <div class="freelance">Mes devis</div>
+            <div class="freelance">Liste des artisans</div>
+            <div class="freelance">Profil</div>
+            <div class="freelance">Messages</div>
+          </div>
+        </div>
+        <div class="aide">
+          <b class="titre">Aide</b>
+          <div class="rue-de-la-joie-29384-aix-en-jo-parent">
+            <div class="freelance">FAQ</div>
+            <div class="freelance">Support</div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-1-caroussel">
+        <div class="frame-1-caroussel-child"></div>
+        <div class="recherche">
+          <div class="categorie1">
+            <div class="title-field">
+              <b class="titre">Catégorie</b>
+              <div class="field5">
+                <div class="titre">Sélectionner dans la liste</div>
+                <img
+                  class="chevron-down-1-icon"
+                  alt=""
+                  src="./public/chevrondown-1@2x.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="barre1">
+            <b class="titre">Nom</b>
+            <div class="research2">
+              <div class="research1">
+                <div class="field6">
+                  <div class="titre">Profession / Nom</div>
+                  <img
+                    class="magnify-1-icon"
+                    alt=""
+                    src="./public/magnify-1@2x.png"
+                  />
+                </div>
+              </div>
+              <div class="search">
+                <img class="vector-icon" alt="" src="./public/vector@2x.png" />
+              </div>
+            </div>
+            <div class="rechercher-par-mot-cls1">Rechercher par mot-clés</div>
+          </div>
+          <div class="localisation2">
+            <div class="title-field4">
+              <b class="titre">Localisation</b>
+              <div class="field-group">
+                <div class="field2">
+                  <div class="titre">Ville principale</div>
+                </div>
+                <div class="field3">
+                  <div class="titre">10 km</div>
+                  <img
+                    class="chevron-down-1-icon"
+                    alt=""
+                    src="./public/chevrondown-1@2x.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="categorie1">
+            <div class="title-field">
+              <b class="titre">Type de bâtiment</b>
+              <div class="field5">
+                <div class="titre">Sélectionner dans la liste</div>
+                <img
+                  class="chevron-down-1-icon"
+                  alt=""
+                  src="./public/chevrondown-1@2x.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="clickable-options5">
+            <div class="freelance">Rechercher</div>
+          </div>
+        </div>
+        <div class="inscrivez-vous-et-choisissez-container">
+          <p class="rue-de-la">
+            Inscrivez-vous et choisissez la formule qui vous convient pour voir
+            les nouvelles demandes de devis dans votre secteur et dans votre
+            domaine d’activité.
+          </p>
+          <p class="rue-de-la">&nbsp;</p>
+          <p class="rue-de-la">
+            Filtrez selon votre domaine d’activité ou par localisation afin de
+            trouver des demandes de devis correspondants à votre secteur
+            d’activité.
+          </p>
+        </div>
+        <b class="recherchez-des-devis">Recherchez des devis</b>
+        <div class="clickable-options6">
+          <div class="freelance">Je crée mon compte</div>
+        </div>
+      </div>
+      <b class="nettoyage">Nettoyage</b>
+      <b class="peinture">Peinture</b>
+      <b class="jardin">Jardin</b>
+      <b class="charpenterie">Charpenterie</b>
+      <b class="electricit">Electricité</b>
+      <div class="field-container">
+        <div class="field10">
+          <div class="donnez-votre-avis-sur-la-prest-wrapper">
+            <b class="titre">Donnez votre avis sur la prestation</b>
+          </div>
+        </div>
+        <div class="note">
+          <div class="stars">
+            <img class="star-icon" alt="" src="./public/star@2x.png" />
+
+            <img class="star-icon" alt="" src="./public/staroutline@2x.png" />
+
+            <img class="star-icon" alt="" src="./public/staroutline@2x.png" />
+
+            <img class="star-icon" alt="" src="./public/staroutline@2x.png" />
+
+            <img class="star-icon" alt="" src="./public/staroutline@2x.png" />
+          </div>
+          <div class="description-field">
+            <div class="titre">
+              Veuillez expliquer votre note et donner plus de détails
+            </div>
+          </div>
+        </div>
+        <div class="etat-surfaces">
+          <b class="ajoutez-des-photos"
+            >Ajoutez des photos des travaux réalisés</b
+          >
+          <div class="field11">
+            <img
+              class="chevron-down-1-icon"
+              alt=""
+              src="./public/formatverticalalignbottom-1@2x.png"
+            />
+
+            <div class="titre">Déposer des fichiers</div>
+          </div>
+          <div class="titre">
+            Fichiers acceptés : png, jpg, pdf, mp4 – max 3Mo
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

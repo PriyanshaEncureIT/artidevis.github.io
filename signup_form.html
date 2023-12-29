@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ArtiDevis </title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <!-- icheck bootstrap -->
+    <link rel="stylesheet"
+      href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="css/costom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Inter:wght@300&display=swap"
+      rel="stylesheet">
+
+  </head>
+  <body class="hold-transition h-100 py-5 login-page  mobile_view">
+    <div class=" login-box ">
+      <div class="digifen-top-header">
+        Sign Up
+      </div>
+      <!-- /.login-logo -->
+      <div class="w-100">
+        <div class>
+            <form method="POST" id="recruiterSignupFrm" >
+              <div class="form-group">
+                <label class="label">First Name</label>
+                <input type="text" class="form-control mb-0"  placeholder="Enter" required>
+                
+
+            </div>
+                <div class="form-group">
+                    <label class="label">Last Name</label>
+                    <input type="text" class="form-control mb-0"  placeholder="Enter" required>
+                    
+
+                </div>
+                <div class="form-group">
+                    <label class="label">Email</label>
+                    <input type="text" class="form-control mb-0" id="" name="email"  placeholder="Enter " value="" required>
+                   
+
+                </div>
+                <div class="form-group position-relative mb-0">
+                    <label class="label">Password</label>
+                    <input type="password" class="form-control mb-0 password mb-0" id="" name="password" placeholder="Enter " value="" required>
+                    <span class="password-eye fas fa-eye toggle-password">
+                    </span>
+                    <small id="recruiter_password_err" class="form-text text-muted coustom-small-text form-group ">
+                    </small>
+                </div>
+                <small id="passwordHelpBlock" class="form-text text-muted coustom-small-text form-group ">
+                    <span class="small_word d-block text-dark"> <i class="fa fa-circle password_font_icons"></i>8 characters minimum </span>
+                    <span class="small_word d-block text-dark"> <i class="fa fa-circle password_font_icons"></i>1 special characters minimum </span>
+                    <span class="small_word d-block text-dark"> <i class="fa fa-circle password_font_icons"></i>1 digit minimum </span>
+                </small>
+                <div class="form-group ">
+                    <label class="label">Mobile</label><span></span>
+                    <input type="text" class="form-control mb-0" id="recruiter_mobile" name="mobile" placeholder="Enter Mobile" value="" >
+                   
+                </div>
+                <div class="form-group ">
+                    
+                    <input type="checkbox">
+                    <span class="checkbox_text"> I have read and agree to the <a href="#" class="text-underline"></a>terms of use</span>
+                 
+                </div>
+
+                <div class="row mt-5">
+                   
+                    <div class="sign_up_choose_box">
+                        <a class="Sign_up_choose_pepole back_btn" href="signIn.html" id="signInBtn">Sign in<span>
+                            </span></a>
+                        <button  class="Sign_up_choose_pepole" onclick="window.location='authentication-pro.html'">Create an account</button>
+                    </div>
+                    <!-- /.col -->
+                </div>
+            </form>
+
+        </div>
+        <!-- /.login-card-body -->
+    </div>
+</div>
+    </div>
+    <!-- /.login-box -->
+
+    <!-- jQuery -->
+    <script src="../../plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../../dist/js/adminlte.min.js"></script>
+  </body>
+</html>

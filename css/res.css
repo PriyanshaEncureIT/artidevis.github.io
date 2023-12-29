@@ -1,0 +1,547 @@
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .mobile_view {
+      padding: 15px;
+    }
+    .digifen_find_job_left {
+      width: 460px;
+      padding-top: 60px !important;
+  }
+    .slider_6 .slider1_img_conatiner {
+        left: 0px !important;
+    }
+    .slider_5 .slider1_img_conatiner {
+
+        left: 0px;
+
+    }
+    .btn-digifen-home-top-menu-responsive {
+        width: auto;
+        font-size: 9px;
+        padding: 5px 5px;
+    }
+    .mobile_view-languga-image{
+          padding:5px !important;
+    }
+    .radio_btn{
+        flex-wrap: wrap;
+    }
+    .login-box {
+      width: 100% !important;
+    }
+    .women_img {
+      width: 100%;
+      left: 0px;
+    }
+    .organization-box {
+      display: flex!important;
+      padding-right: 11px;
+    }
+    .carousel-inner-slider {
+        overflow-x: unset;
+         height: auto;
+    }
+    .organization_left
+     {
+      width: 270px;
+      height: 196px;
+     }
+     .layout-top-nav .wrapper .main-header .brand-image {
+
+      width: 85px;
+  }
+  .sign_up_choose_box{
+    display: flex;
+  }
+  .btn-digifen-home{
+    width: auto;
+  }
+  .top-nav-bar{
+    position: relative;
+  }
+  .home-banner-conatiner{
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-image-box{
+    display: none;
+  }
+  .digifen-home-banner-box{
+    width:100%;
+    /* margin-top: 15px !important; */
+
+  }
+  .digifen_find_job_right img {
+    position: absolute;
+    top: 25px;
+    height: 180px !important;
+    right: -38px;
+}
+  .home_page .form-check-label {
+    font-size: 9px !important;
+  }
+  .home-banner{
+    padding: 10px 11px;
+    border:none;
+  }
+  .your-candidate{
+    display: none;
+  }
+  .find-job-title h5 {
+    padding: 30px 0px 0px;
+    font-size: 24px;
+  }
+  .digifen-conatiner{
+    width: 100%;
+    padding: 10px;
+
+  }
+  footer {
+    padding: 63px 10px 30px 50px;
+
+  }
+
+  .digifen_mobile{
+    width: 231px !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: 240px !important;
+  }
+  .carousel {
+    height: auto;
+  }
+  .digifen_mobile .digifrn_find_text_conatiner{
+    padding: 37px 0px 0px 28px;
+  }
+  .col-sm-6{
+    padding: 0px;
+  }
+
+
+  .digifen_mobile .digifrn_find_text_conatiner {
+    width: 180px;
+    padding: 37px 0px 66px 28px;
+    height: auto;
+  }
+  .digifrn_find_text_conatiner {
+    width: 157px;
+  }
+  .border-div{
+    display: none;
+  }
+  .choose_perpect_div{
+    background-color: white;
+  }
+  .digifen_find_job_right{
+    width:300px;
+  }
+  .digifrn_find_text_conatiner {
+    padding: 43px 0px 0px 0px;
+  }
+  .footer_container
+    {
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+    .digifen_find_slider_left
+     {
+      margin-top: 61px;
+      width: 100%;
+     }
+     .mb-30 {
+      margin-bottom: 29px;
+     }
+     .organization_2nd_image {
+      display: block;
+      position: absolute;
+      width: 290px;
+      height: 90px;
+      bottom: -26px;
+      right: 23px;
+      object-fit: fill;
+     }
+     .digifen_find_job_left{
+      width: 100%;
+     }
+     .digifen_choose_right{
+      width: 100%;
+     }
+     .digifen_mobile .digifen_find_job_right img{
+      right: -77px !important;
+    }
+    .nav-link-padding{
+      padding-left:0px;
+    }
+    .top_menu{
+      position: absolute;
+      right: 3px;
+    }
+    .home-banner-conatiner{
+      gap:20px;
+    }
+    .find-job-title{
+      padding: 0px;
+    }
+    .find-job-title p {
+
+      font-size: 10px !important;
+
+  }
+  .slider_6{
+    width: 100%;
+  }
+  .slider_2 {
+    left: -8px;
+    bottom: 25px;
+    top:unset;
+    width: 200px;
+  }
+  .slider_3 {
+    left: 0px;
+    bottom: 56px;
+    width: 200px;
+  }
+  .slider_3 img {
+    width: 75px;
+    height: 76px;
+  }
+  .slider1{
+    width: 100%;
+
+  }
+
+  .box{
+    font-size:9px;
+  }
+
+  }
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .mobile_view {
+      padding: 15px;
+    }
+    .login-box {
+      width: 100% !important;
+    }
+    .women_img {
+      width: 100%;
+      left: 0px;
+    }
+    .organization-box {
+      display: flex!important;
+      padding-right: 11px;
+    }
+    .organization_left
+     {
+      width: 270px;
+      height: 196px;
+     }
+     .layout-top-nav .wrapper .main-header .brand-image {
+
+      width: 85px;
+  }
+  .sign_up_choose_box{
+    display: flex;
+  }
+  .btn-digifen-home{
+    width: auto;
+  }
+  .top-nav-bar{
+    position: relative;
+  }
+  .home-banner-conatiner {
+    justify-content: center;
+    gap: 67px;
+}
+  .digifen-home-banner-box{
+    width:350px !important;
+  }
+  .banner-image-box {
+    position: absolute;
+    left: -3px !important;
+}
+  .home-banner{
+    padding: 45px 11px !important;
+    border:none;
+  }
+  .your-candidate{
+    display: none;
+  }
+  .find-job-title h5 {
+    padding: 30px 0px 0px;
+    font-size: 36px;
+  }
+  .digifen-conatiner{
+    width: 100%;
+    padding: 10px;
+
+  }
+  footer {
+    padding: 63px 10px 30px 50px;
+
+  }
+
+  .digifen_mobile{
+    width: 231px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .carousel {
+    height: auto;
+  }
+  .digifen_mobile .digifrn_find_text_conatiner{
+    padding: 37px 0px 0px 28px;
+  }
+
+
+  .digifen_mobile .digifrn_find_text_conatiner {
+    width: 180px;
+    padding: 37px 0px 66px 28px;
+    height: auto;
+  }
+  .digifrn_find_text_conatiner {
+    width: 210px;
+  }
+  .border-div{
+    display: none;
+  }
+  .choose_perpect_div{
+    background-color: white;
+  }
+  .digifen_find_job_right{
+    width:300px;
+  }
+  .digifrn_find_text_conatiner {
+    padding: 65px 0px 0px 0px;
+  }
+  .footer_container
+    {
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+    .digifen_find_slider_left
+     {
+      margin-top: 61px;
+      width: 100%;
+     }
+     .mb-30 {
+      margin-bottom: 29px;
+     }
+     .organization_2nd_image {
+      display: block;
+      position: absolute;
+      width: 290px;
+      height: 90px;
+      bottom: -26px;
+      right: 23px;
+      object-fit: fill;
+     }
+     .digifen_find_job_left{
+      width: 100%;
+     }
+     .digifen_choose_right{
+      width: 100%;
+     }
+     .digifen_mobile .digifen_find_job_right img{
+      right: -77px !important;
+    }
+    .nav-link-padding{
+      padding-left:0px;
+    }
+    .top_menu{
+      position: absolute;
+      right: 0 !important;
+    }
+    .home-banner-conatiner{
+      gap:20px;
+    }
+    .find-job-title{
+      padding: 0px;
+    }
+    .find-job-title p {
+
+      font-size: 13px;
+
+  }
+  .slider_6{
+    width: 100%;
+  }
+  .slider_2 {
+    left: -8px;
+    bottom: 25px;
+    top:unset;
+    width: 200px;
+  }
+  .slider_3 {
+    left: 0px;
+    bottom: 56px;
+    width: 200px;
+  }
+  .slider_3 img {
+    width: 75px;
+    height: 76px;
+  }
+  .slider1{
+    width: 100%;
+
+  }
+
+  .box{
+    font-size:9px;
+  }
+  .organization_left {
+    width: 334px;
+    height: 214px;
+}
+.organization_2nd_image {
+  width: 320px;
+  height: 123px;
+}
+
+  }
+  @media screen and (min-width:768) and (max-width:991) {
+
+
+  }
+  /* @media screen and (min-width: 600px) and (max-width: 1023px) {
+    .women_img {
+      width: 100%;
+      left: 0px;
+    }
+  } */
+
+
+
+  @media screen and (min-width:1000px) and (max-width:1440px) {
+    
+
+    
+
+}
+@media  screen and (min-width:1800px) and (max-width:1920px) {
+    .footer_container {
+        width: 900px;
+        justify-content: center;
+    }
+    .footer_heder {
+        font-size: 22px;
+    }
+
+    .footer_text {
+        font-size: 17px;
+    }
+    .digifen-conatiner {
+        width: 1200px;
+    }
+    .find-job-title h5 {
+        font-size: 40px;
+    }
+    .home_page .form-check-label {
+        font-size: 16px;
+    }
+    .digifen-top-header {
+        font-size: 25px;
+    }
+    .form-group .label {
+        font-size: 17px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1919px) {
+  /* Your styles for medium-sized desktops here */
+
+}
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+  .digifen-home-banner-box {
+    width: 480px !important;
+    height: 180px !important;
+  }
+  .digifen-conatiner {
+    width: 1500px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .find-job-title h5 {
+    padding: 46px 0px 0px;
+    font-size: 80px !important;
+    font-weight: 500;
+    color: var(--dark-purple);
+    margin-bottom: 0px;
+}
+.find-job-title p {
+  padding-top: 6px;
+  font-size: 26px !important;
+  font-weight: 500;
+  color: var(--dark-purple);
+}
+.lang-change{
+  font-size: 16px !important;
+}
+.digifen-top-header {
+  font-family: var(--font-Caprasimo);
+  color: var(--dark_white);
+  text-align: center;
+  font-size: 30px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.home_page .form-check-label {
+  color: var(--white_black);
+  font-size: 16px !important;
+  font-weight: 500;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+.small_word {
+  color: var(--dark_white);
+  font-size: 16px !important;
+}
+.home_page_text_conatiner p {
+  color: var(--black);
+  font-size: 18px !important;
+}
+.digifen-banner-text-container h6 {
+  color: #000;
+  font-size: 20px !important;
+  font-weight: 500;
+}
+.btn-digifen-home {
+  font-size: 18px !important;
+}
+.your-candidate {
+  font-size: 25px !important;
+}
+.digifen_find_job_right h6 {
+    color: var(--black);
+    font-size: 18px !important;
+    font-weight: 700;
+}
+
+.digifen_find_job_right p {
+  color: var(--black);
+  font-size: 15px !important;
+  line-height: 1rem !important;
+}
+.form-group .label {
+  font-size: 20px !important;
+}
+.btn-discover{
+    font-size: 18px !important;
+}
+.footer_heder {
+  color: #FFFAF4;
+  font-size: 20px !important;
+  font-family: Caprasimo;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.footer_text {
+  color: #FFFAF4;
+  font-size: 16px !important;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+ 
+}
