@@ -1,102 +1,598 @@
 <html lang="en" style="height: auto;"><head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ArtiDevis</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ArtiDevis</title>
 
-    <!-- Google Font: Source Sans Pro -->
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"> -->
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
-    <!-- icheck bootstrap -->
-    <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
-    <!-- Theme style -->
-    <link rel="stylesheet" href="dist/css/adminlte.min.css">
-    <link rel="stylesheet" href="css/costom.css">
-    <link rel="stylesheet" href="css/dashboard.css">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+  <!-- Google Font: Source Sans Pro -->
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"> -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- icheck bootstrap -->
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="css/costom.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&amp;display=swap" rel="stylesheet">
-  </head>
-  <body class="layout-top-nav" style="height: auto;">
-    <div class="wrapper">
-      <!-- Navbar -->
-      <nav class="main-header navbar navbar-expand-md navbar-light navbar-black top-nav-bar">
-        <div class="container-fluid">
-          <a href="index.html" class="navbar-brand">
-            <img src="Web_assets/home/Artidevis_logo.svg" alt="Digifen Logo" class="brand-image">
-          </a>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&amp;display=swap" rel="stylesheet">
+</head>
+<body class="layout-top-nav" style="height: auto;">
+  <div class="wrapper">
+    <!-- Navbar -->
+    <nav class="main-header navbar navbar-expand-md navbar-light navbar-black top-nav-bar">
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand">
+          <img src="Web_assets/home/Artidevis_logo.svg" alt="Digifen Logo" class="brand-image">
+        </a>
 
-          <!-- Right navbar links -->
-          <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto top_menu">
-            <li class="nav-item dropdown">
-              <div class="sign_up_choose_box" style="flex-wrap: nowrap !important">
-                <a class="btn-blue-home btn-light" href="signIn.html">Sign In <span> </span></a>
-                <a href="signup.html" class="btn-blue-home btn-purple">Sign Up </a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="text-dark nav-link nav-link-padding " style="color:#000 !important" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-                <img src="Web_assets/home/ico_language.svg" loading="lazy" class="mr-7">
-                Français
-              </a>
-            </li>
-          </ul>
+        <!-- Right navbar links -->
+        <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto top_menu align-items-center">
+          <li class="nav-item dropdown">
+            <div class="sign_up_choose_box" style="flex-wrap: nowrap !important">
+              <a class="btn-blue-home btn-light" href="signIn.html">Sign In <span> </span></a>
+              <a href="signup.html" class="btn-blue-home btn-purple">Sign Up </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="text-dark nav-link nav-link-padding " style="color:#000 !important" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+              <img src="Web_assets/home/ico_language.svg" loading="lazy" class="mr-7">
+              Français
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- /.navbar -->
+    <!--banner section start-->
+
+    <div class="home-banner theme-background">
+      <div class="home-banner-conatiner">
+        <div class="digifen-home-banner-box">
+          <div class="inner-box">
+            <div class="digifen-banner-text-container">
+              <h6>Looking for a professional?</h6>
+              <button class="btn-blue-home btn-purple"  onclick="window.location='listoFcarftman.html'">Click here</button>
+            </div>
+          </div>
         </div>
-      </nav>
-      <!-- /.navbar -->
-      <!--banner section start-->
-
-      <div class="home-banner theme-background">
-        <div class="home-banner-conatiner">
+        <div class="inner-box">
           <div class="digifen-home-banner-box">
-            <div class="inner-box">
-              <div class="digifen-banner-text-container">
-                <h6>Looking for a professional?</h6>
-                <button class="btn-blue-home btn-purple">Click here</button>
+            <div class="digifen-banner-text-container">
+              <h6>Looking for a quote?</h6>
+              <button class="btn-blue-home btn-purple"  onclick="window.location='createquotererequest.html'">Click here</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="digifen-button position-relative d-flex justify-content-center">
+      <button class="your-candidate btn-purple">Your are a candidate</button>
+   </div> -->
+    <!-- banner section end -->
+
+    <div class="artidev1_banner">
+      <div class="digifen-conatiner">
+        <!-- find job section -->
+
+        <div class="fine-container">
+          <div class="row mx-0 mx-0 mx-0">
+            <div class="col-sm-12">
+              <div class="small-word sub_home_header">I am an individual</div>
+              <div class="home_page">
+                <div class="secand_header text-left mb-15">
+                  Find a craftsman
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="form-group">
+                      <label class="label text-white">Category</label>
+                      <select class="form-control">
+                        <option>Select from the list</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="form-group">
+                      <label class="label text-white">Location </label>
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <input type="text" class="form-control mb-0" id="" placeholder="Enter">
+                        </div>
+                        <div class="col-lg-6">
+                          <select class="form-control mb-0">
+                            <option>Select from the list</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="form-group">
+                      <label class="label text-white">Name </label>
+                      <input type="text" class="form-control" id="" placeholder="Enter">
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="form-group">
+                      <label class="label text-white">Type de bâtiment </label>
+                      <select class="form-control">
+                        <option>Select from the list</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 text-center margin-top-40">
+                    <a class="btn-blue-home btn-light d-block mx-auto" href="#">Research</a>
+                  </div>
+                  <p class="research_text text-white">It's free for private individuals. Post your request for a quote or search for a craftsman using the advanced filter.</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="inner-box">
-            <div class="digifen-home-banner-box">
-              <div class="digifen-banner-text-container">
-                <h6>Looking for a quote?</h6>
-                <button class="btn-blue-home btn-purple">Click here</button>
+        </div>
+        
+      </div>
+    </div>
+    <div class="choose_perpect_div">
+      <div class="digifen-conatiner">
+        <!-- find job section -->
+        <div class="fine-container">
+          <div class="row mx-0 mx-0 mx-0">
+          
+            <div class="col-sm-12 pl-20">
+              <div class="all-type-work home_page">
+                <div class="third_section_title">
+                     For all types of work
+                </div>
+              <div class="type_of_work">
+                <ul>
+                  <li>Cleaning</li>
+                  <li>Painting</li>
+                  <li>Garden</li>
+                  <li>Carpentry</li>
+                  <li>Electricity</li>
+                </ul>
+              </div>
+              <div class="third_section_title">
+            Recommended by our users
+            </div>
+            
+            <p class="recommended-box-sub-text mb-20"> Because we know that word of mouth is the key to
+               success, you can recommend our artisans and give us your opinion of their work.
+                This is important to us so that we can offer you the best craftsmen.</p>
+               
+                <div class="recommended-box">
+                  <p class="text-white small_word">Give your opinion on the service</p>
+                  <div class="star-image">
+                    <img src="Web_assets/home/ico_star.svg" loading="lazy">
+                    <img src="Web_assets/home/ico_star-outline.svg">
+                    <img src="Web_assets/home/ico_star-outline.svg">
+                    <img src="Web_assets/home/ico_star-outline.svg">
+                    <img src="Web_assets/home/ico_star-outline.svg">
+                  </div>
+                  <div class="form-group">
+                  <textarea class="form-control">Please explain your rating 
+                    and give more details</textarea>
+                  </div>
+                  <div class="form-group">
+                    <label class="label text-white">Add photos of the work done</label>
+                    <div class="formbold-mb-5 formbold-file-input">
+                      <input type="file" name="file" id="file">
+                      <label for="file">
+                        <div>
+                          <span class="formbold-drop-file">
+                              <svg xmlns="http://www.w3.org/2000/svg" class="mx-2" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                  <path d="M12.5 10.25H10.25V2.75H8.75V10.25H6.5L9.5 13.25L12.5 10.25ZM3.5 14.75V16.25H15.5V14.75H3.5Z" fill="#565656"></path>
+                                </svg>
+                               Upload File
+                           </span>
+                         
+                        </div>
+                      </label>
+                    </div>
+                    </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- <div class="digifen-button position-relative d-flex justify-content-center">
-        <button class="your-candidate btn-purple">Your are a candidate</button>
-     </div> -->
-      <!-- banner section end -->
-
-      <div class="artidev1_banner">
-        <div class="digifen-conatiner">
-          <!-- find job section -->
-
-          <div class="fine-container">
-            <div class="row mx-0 mx-0 mx-0">
-              <div class="col-sm-12">
-                <div class="small-word sub_home_header">I am an individual</div>
-                <div class="home_page">
-                  <div class="secand_header text-left mb-15">
-                    Find a craftsman
+   
+    </div>
+    <div class="digifen-conatiner">
+      
+        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <div class="fine-container">
+                <div class="row mx-0 mx-0 mx-0">
+                  <div class="col-sm-6 d-flex align-content-">
+                    <div class="digifen_find_slider_left home_page home_page_text_conatiner">
+                      <div class="digifen-text-dark digifen-top-header text-left mb-30">
+                        Find the right contact for you
+                      </div>
+                      <p class="digifen-para ">
+                        Whether you're a freelancer looking for an assignment,
+                        or looking for a permanent contract, we've made it
+                        easy for you: it's all in one place! No need to search
+                        the whole internet.
+                      </p>
+                      <button class="btn-blue btn-purple">Check</button>
+                    </div>
                   </div>
-                  <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-6">
-                      <div class="form-group">
-                        <label class="label text-white">Category</label>
-                        <select class="form-control">
-                          <option>Select from the list</option>
-                        </select>
+                  <div class="col-sm-6 d-flex justify-content-start">
+                    <div class="digifen_find_job_slider_right position-relative slider1">
+                      <div class="h-100">
+                        <img src="Web_assets/home/img1.png" alt="">
+                      </div>
+                      <div class="slider1_img_conatiner slider_1">
+                        <div class="inner_Box form-group mb-0">
+                          <label class="label digifen-text-dark d-block">I am looking for a</label>
+                          <button class="border-red btn-slider btn-light">
+                            CDD
+                          </button>
+                          <button class="btn-slider btn-purple">CDI</button>
+                          <button class="btn-slider btn-purple">
+                            Freelance
+                          </button>
+                        </div>
                       </div>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="fine-container">
+                <div class="row mx-0 mx-0 mx-0">
+                  <div class="col-sm-6">
+                    <div class="digifen_find_slider_left home_page home_page_text_conatiner">
+                      <div class="digifen-text-dark digifen-top-header text-left mb-30 mt-130">
+                        Apply in one click
+                      </div>
+                      <p class="digifen-para mb-30">
+                        The information in your profile allows you to apply
+                        quickly without having to fill in your details each
+                        time.
+                      </p>
+                      <button class="btn-blue btn-purple">
+                        Find a contract
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 d-flex justify-content-center">
+                    <div class="digifen_find_job_slider_right position-relative">
+                      <div class="">
+                        <img src="Web_assets/home/img3.png" alt="">
+                      </div>
+                      <div class="slider1_img_conatiner slider_2">
+                        <div class="inner_Box form-group mb-0">
+                          <label class="label digifen-text-dark d-block">Fullstack</label>
+                          <div class="box">
+                            <div class="box">
+                              <span class="digifen-text-dark small_word">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                                  <path d="M6 4.5C6.53043 4.5 7.03914 4.71071 7.41421 5.08579C7.78929 5.46086 8 5.96957 8 6.5C8 7.03043 7.78929 7.53914 7.41421 7.91421C7.03914 8.28929 6.53043 8.5 6 8.5C5.46957 8.5 4.96086 8.28929 4.58579 7.91421C4.21071 7.53914 4 7.03043 4 6.5C4 5.96957 4.21071 5.46086 4.58579 5.08579C4.96086 4.71071 5.46957 4.5 6 4.5ZM1.525 7H0.5V6H1.525C1.75 3.915 3.415 2.25 5.5 2.025V1H6.5V2.025C8.585 2.25 10.25 3.915 10.475 6H11.5V7H10.475C10.25 9.085 8.585 10.75 6.5 10.975V12H5.5V10.975C3.415 10.75 1.75 9.085 1.525 7ZM6 3C5.07174 3 4.1815 3.36875 3.52513 4.02513C2.86875 4.6815 2.5 5.57174 2.5 6.5C2.5 7.42826 2.86875 8.3185 3.52513 8.97487C4.1815 9.63125 5.07174 10 6 10C6.92826 10 7.8185 9.63125 8.47487 8.97487C9.13125 8.3185 9.5 7.42826 9.5 6.5C9.5 5.57174 9.13125 4.6815 8.47487 4.02513C7.8185 3.36875 6.92826 3 6 3Z" fill="#0F100F"></path>
+                                </svg>
+                                Lyon , remote possible
+                              </span>
+                              <span class="digifen-text-dark small_word">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                                  <path d="M3 1.5C2.73478 1.5 2.48043 1.60536 2.29289 1.79289C2.10536 1.98043 2 2.23478 2 2.5V10.5C2 10.7652 2.10536 11.0196 2.29289 11.2071C2.48043 11.3946 2.73478 11.5 3 11.5H9C9.26522 11.5 9.51957 11.3946 9.70711 11.2071C9.89464 11.0196 10 10.7652 10 10.5V4.5L7 1.5H3ZM3 2.5H6.5V5H9V10.5H3V2.5ZM4 6.5V7.5H8V6.5H4ZM4 8.5V9.5H6.5V8.5H4Z" fill="#0F100F"></path>
+                                </svg>
+                                CDI
+                              </span>
+                            </div>
+                            <div class="box">
+                              <span class="digifen-text-dark small_word">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                                  <path d="M1.5 3.5H10.5V9.5H1.5V3.5ZM6 5C6.39782 5 6.77936 5.15804 7.06066 5.43934C7.34196 5.72064 7.5 6.10218 7.5 6.5C7.5 6.89782 7.34196 7.27936 7.06066 7.56066C6.77936 7.84196 6.39782 8 6 8C5.60218 8 5.22064 7.84196 4.93934 7.56066C4.65804 7.27936 4.5 6.89782 4.5 6.5C4.5 6.10218 4.65804 5.72064 4.93934 5.43934C5.22064 5.15804 5.60218 5 6 5ZM3.5 4.5C3.5 4.76522 3.39464 5.01957 3.20711 5.20711C3.01957 5.39464 2.76522 5.5 2.5 5.5V7.5C2.76522 7.5 3.01957 7.60536 3.20711 7.79289C3.39464 7.98043 3.5 8.23478 3.5 8.5H8.5C8.5 8.23478 8.60536 7.98043 8.79289 7.79289C8.98043 7.60536 9.23478 7.5 9.5 7.5V5.5C9.23478 5.5 8.98043 5.39464 8.79289 5.20711C8.60536 5.01957 8.5 4.76522 8.5 4.5H3.5Z" fill="#0F100F"></path>
+                                </svg>
+                                50 000 – 60 000 €
+                              </span>
+                              <span class="digifen-text-dark small_word">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                                  <path d="M3.5 4.38V8.625H5.54L5.84 8.17C6.42 7.275 7.465 6.875 8.235 6.875C8.5 6.875 8.725 6.92 8.895 7C9.35 7.205 9.475 7.59 9.5 7.87C9.54 8.435 9.25 9.015 8.75 9.355C8.3 9.665 7.22 10 5.935 10C5.06 10 3.805 9.845 2.56 9.15C2.705 7.925 3 5.94 3.5 4.38ZM3.5 2C2 4.045 1.5 9.67 1.5 9.67C2.95 10.655 4.54 11 5.935 11C7.43 11 8.695 10.605 9.32 10.18C10.82 9.16 10.97 6.855 9.32 6.09C9 5.945 8.63 5.875 8.235 5.875C7.085 5.875 5.75 6.48 5 7.625H4.5V4.045H5.5L6 2.5L3.5 2Z" fill="#0F100F"></path>
+                                </svg>
+                                4 – 10 years exp.
+                              </span>
+                            </div>
+                            <button class="btn-blue-home btn-purple w-100">
+                              Apply
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active">
+              <div class="fine-container">
+                <div class="row mx-0 mx-0 mx-0">
+                  <div class="col-sm-6">
+                    <div class="digifen_find_slider_left home_page home_page_text_conatiner">
+                      <div class="digifen-text-dark digifen-top-header text-left mb-30 mt-130">
+                        Showcase your talents with your portfolio
+                      </div>
+                      <p class="digifen-para mb-30">
+                        The portfolio section lets you showcase the work
+                        you've done that makes you proud, giving recruiters a
+                        clearer idea of your talents.
+                      </p>
+                      <button class="btn-blue btn-purple">Let's go</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 d-flex justify-content-center">
+                    <div class="digifen_find_job_slider_right position-relative">
+                      <div class="">
+                        <img src="Web_assets/home/img4.png" alt="">
+                      </div>
+                      <div class="slider1_img_conatiner slider_3">
+                        <div class="inner_Box form-group mb-0">
+                          <label class="label digifen-text-dark d-block">Portfolio</label>
+                          <div class="d-flex">
+                            <img src="Web_assets/home/portfolio1.png" loader="lazy" style="margin-right: 4px">
+                            <img src="Web_assets/home/portfolio2.png" loader="lazy">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="fine-container">
+                <div class="row mx-0 mx-0 mx-0">
+                  <div class="col-sm-6">
+                    <div class="digifen_find_slider_left home_page home_page_text_conatiner">
+                      <div class="digifen-text-dark digifen-top-header text-left mb-30 mt-130">
+                        Find a tailor-made offer thanks to your personalised
+                        profile information
+                      </div>
+                      <p class="digifen-para mb-30">
+                        Find the ideal offer according to your location,
+                        salary preferences, level of experience, etc. Don't
+                        waste any more time searching through offers that
+                        don't match your criteria.
+                      </p>
+                      <button class="btn-blue btn-purple">
+                        Find a contract
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="digifen_find_job_slider_right position-relative slider_4">
+                      <div class="">
+                        <img src="Web_assets/home/img5.png" alt="">
+                      </div>
+                      <div class="slider1_img_conatiner">
+                        <div class="inner_Box form-group mb-0">
+                          <label class="label digifen-text-dark d-block">Fullstack</label>
+                          <div class="box">
+                            <div class="box">
+                              <span class="digifen-text-dark small_word">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                                  <path d="M6 4.5C6.53043 4.5 7.03914 4.71071 7.41421 5.08579C7.78929 5.46086 8 5.96957 8 6.5C8 7.03043 7.78929 7.53914 7.41421 7.91421C7.03914 8.28929 6.53043 8.5 6 8.5C5.46957 8.5 4.96086 8.28929 4.58579 7.91421C4.21071 7.53914 4 7.03043 4 6.5C4 5.96957 4.21071 5.46086 4.58579 5.08579C4.96086 4.71071 5.46957 4.5 6 4.5ZM1.525 7H0.5V6H1.525C1.75 3.915 3.415 2.25 5.5 2.025V1H6.5V2.025C8.585 2.25 10.25 3.915 10.475 6H11.5V7H10.475C10.25 9.085 8.585 10.75 6.5 10.975V12H5.5V10.975C3.415 10.75 1.75 9.085 1.525 7ZM6 3C5.07174 3 4.1815 3.36875 3.52513 4.02513C2.86875 4.6815 2.5 5.57174 2.5 6.5C2.5 7.42826 2.86875 8.3185 3.52513 8.97487C4.1815 9.63125 5.07174 10 6 10C6.92826 10 7.8185 9.63125 8.47487 8.97487C9.13125 8.3185 9.5 7.42826 9.5 6.5C9.5 5.57174 9.13125 4.6815 8.47487 4.02513C7.8185 3.36875 6.92826 3 6 3Z" fill="#0F100F"></path>
+                                </svg>
+                                Lyon , remote possible
+                              </span>
+                              <span class="digifen-text-dark small_word">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                                  <path d="M3 1.5C2.73478 1.5 2.48043 1.60536 2.29289 1.79289C2.10536 1.98043 2 2.23478 2 2.5V10.5C2 10.7652 2.10536 11.0196 2.29289 11.2071C2.48043 11.3946 2.73478 11.5 3 11.5H9C9.26522 11.5 9.51957 11.3946 9.70711 11.2071C9.89464 11.0196 10 10.7652 10 10.5V4.5L7 1.5H3ZM3 2.5H6.5V5H9V10.5H3V2.5ZM4 6.5V7.5H8V6.5H4ZM4 8.5V9.5H6.5V8.5H4Z" fill="#0F100F"></path>
+                                </svg>
+                                CDI
+                              </span>
+                            </div>
+                            <div class="box">
+                              <span class="digifen-text-dark small_word">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                                  <path d="M1.5 3.5H10.5V9.5H1.5V3.5ZM6 5C6.39782 5 6.77936 5.15804 7.06066 5.43934C7.34196 5.72064 7.5 6.10218 7.5 6.5C7.5 6.89782 7.34196 7.27936 7.06066 7.56066C6.77936 7.84196 6.39782 8 6 8C5.60218 8 5.22064 7.84196 4.93934 7.56066C4.65804 7.27936 4.5 6.89782 4.5 6.5C4.5 6.10218 4.65804 5.72064 4.93934 5.43934C5.22064 5.15804 5.60218 5 6 5ZM3.5 4.5C3.5 4.76522 3.39464 5.01957 3.20711 5.20711C3.01957 5.39464 2.76522 5.5 2.5 5.5V7.5C2.76522 7.5 3.01957 7.60536 3.20711 7.79289C3.39464 7.98043 3.5 8.23478 3.5 8.5H8.5C8.5 8.23478 8.60536 7.98043 8.79289 7.79289C8.98043 7.60536 9.23478 7.5 9.5 7.5V5.5C9.23478 5.5 8.98043 5.39464 8.79289 5.20711C8.60536 5.01957 8.5 4.76522 8.5 4.5H3.5Z" fill="#0F100F"></path>
+                                </svg>
+                                50 000 – 60 000 €
+                              </span>
+                              <span class="digifen-text-dark small_word">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                                  <path d="M3.5 4.38V8.625H5.54L5.84 8.17C6.42 7.275 7.465 6.875 8.235 6.875C8.5 6.875 8.725 6.92 8.895 7C9.35 7.205 9.475 7.59 9.5 7.87C9.54 8.435 9.25 9.015 8.75 9.355C8.3 9.665 7.22 10 5.935 10C5.06 10 3.805 9.845 2.56 9.15C2.705 7.925 3 5.94 3.5 4.38ZM3.5 2C2 4.045 1.5 9.67 1.5 9.67C2.95 10.655 4.54 11 5.935 11C7.43 11 8.695 10.605 9.32 10.18C10.82 9.16 10.97 6.855 9.32 6.09C9 5.945 8.63 5.875 8.235 5.875C7.085 5.875 5.75 6.48 5 7.625H4.5V4.045H5.5L6 2.5L3.5 2Z" fill="#0F100F"></path>
+                                </svg>
+                                4 – 10 years exp.
+                              </span>
+                            </div>
+                            <button class="btn-map">Java</button>
+                            <button class="btn-map">Angular</button>
+                            <button class="btn-map">JavaScript</button>
+                            <button class="btn-map">Python</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="fine-container">
+                <div class="row mx-0 mx-0 mx-0">
+                  <div class="col-sm-6">
+                    <div class="digifen_find_slider_left home_page home_page_text_conatiner">
+                      <div class="digifen-text-dark digifen-top-header text-left mb-30 mt-130">
+                        Relaunch your application to confirm your choice
+                      </div>
+                      <p class="digifen-para mb-30">
+                        You've applied for a job that's right for you but you
+                        don't know how to follow up because the email is
+                        missing? We've thought of everything! The relaunch
+                        button will help you stand out from the crow mx-0 mx-0
+                        mx-0d and confirm your choice.
+                      </p>
+                      <button class="btn-blue btn-purple">
+                        I'm going for it
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="digifen_find_job_slider_right position-relative slider_5">
+                      <div class="">
+                        <img src="Web_assets/home/img6.png" alt="">
+                      </div>
+                      <div class="slider1_img_conatiner">
+                        <div class="inner_Box form-group mb-0">
+                          <label class="label digifen-text-dark d-block">Fullstack</label>
+                          <div class="box">
+                            <div class="box">
+                              <span class="digifen-text-dark small_word">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                                  <path d="M6 4.5C6.53043 4.5 7.03914 4.71071 7.41421 5.08579C7.78929 5.46086 8 5.96957 8 6.5C8 7.03043 7.78929 7.53914 7.41421 7.91421C7.03914 8.28929 6.53043 8.5 6 8.5C5.46957 8.5 4.96086 8.28929 4.58579 7.91421C4.21071 7.53914 4 7.03043 4 6.5C4 5.96957 4.21071 5.46086 4.58579 5.08579C4.96086 4.71071 5.46957 4.5 6 4.5ZM1.525 7H0.5V6H1.525C1.75 3.915 3.415 2.25 5.5 2.025V1H6.5V2.025C8.585 2.25 10.25 3.915 10.475 6H11.5V7H10.475C10.25 9.085 8.585 10.75 6.5 10.975V12H5.5V10.975C3.415 10.75 1.75 9.085 1.525 7ZM6 3C5.07174 3 4.1815 3.36875 3.52513 4.02513C2.86875 4.6815 2.5 5.57174 2.5 6.5C2.5 7.42826 2.86875 8.3185 3.52513 8.97487C4.1815 9.63125 5.07174 10 6 10C6.92826 10 7.8185 9.63125 8.47487 8.97487C9.13125 8.3185 9.5 7.42826 9.5 6.5C9.5 5.57174 9.13125 4.6815 8.47487 4.02513C7.8185 3.36875 6.92826 3 6 3Z" fill="#0F100F"></path>
+                                </svg>
+                                Lyon , remote possible
+                              </span>
+                              <span class="digifen-text-dark small_word">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                                  <path d="M3 1.5C2.73478 1.5 2.48043 1.60536 2.29289 1.79289C2.10536 1.98043 2 2.23478 2 2.5V10.5C2 10.7652 2.10536 11.0196 2.29289 11.2071C2.48043 11.3946 2.73478 11.5 3 11.5H9C9.26522 11.5 9.51957 11.3946 9.70711 11.2071C9.89464 11.0196 10 10.7652 10 10.5V4.5L7 1.5H3ZM3 2.5H6.5V5H9V10.5H3V2.5ZM4 6.5V7.5H8V6.5H4ZM4 8.5V9.5H6.5V8.5H4Z" fill="#0F100F"></path>
+                                </svg>
+                                CDI
+                              </span>
+                            </div>
+                            <div class="box">
+                              <span class="digifen-text-dark small_word">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                                  <path d="M1.5 3.5H10.5V9.5H1.5V3.5ZM6 5C6.39782 5 6.77936 5.15804 7.06066 5.43934C7.34196 5.72064 7.5 6.10218 7.5 6.5C7.5 6.89782 7.34196 7.27936 7.06066 7.56066C6.77936 7.84196 6.39782 8 6 8C5.60218 8 5.22064 7.84196 4.93934 7.56066C4.65804 7.27936 4.5 6.89782 4.5 6.5C4.5 6.10218 4.65804 5.72064 4.93934 5.43934C5.22064 5.15804 5.60218 5 6 5ZM3.5 4.5C3.5 4.76522 3.39464 5.01957 3.20711 5.20711C3.01957 5.39464 2.76522 5.5 2.5 5.5V7.5C2.76522 7.5 3.01957 7.60536 3.20711 7.79289C3.39464 7.98043 3.5 8.23478 3.5 8.5H8.5C8.5 8.23478 8.60536 7.98043 8.79289 7.79289C8.98043 7.60536 9.23478 7.5 9.5 7.5V5.5C9.23478 5.5 8.98043 5.39464 8.79289 5.20711C8.60536 5.01957 8.5 4.76522 8.5 4.5H3.5Z" fill="#0F100F"></path>
+                                </svg>
+                                50 000 – 60 000 €
+                              </span>
+                              <span class="digifen-text-dark small_word">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                                  <path d="M3.5 4.38V8.625H5.54L5.84 8.17C6.42 7.275 7.465 6.875 8.235 6.875C8.5 6.875 8.725 6.92 8.895 7C9.35 7.205 9.475 7.59 9.5 7.87C9.54 8.435 9.25 9.015 8.75 9.355C8.3 9.665 7.22 10 5.935 10C5.06 10 3.805 9.845 2.56 9.15C2.705 7.925 3 5.94 3.5 4.38ZM3.5 2C2 4.045 1.5 9.67 1.5 9.67C2.95 10.655 4.54 11 5.935 11C7.43 11 8.695 10.605 9.32 10.18C10.82 9.16 10.97 6.855 9.32 6.09C9 5.945 8.63 5.875 8.235 5.875C7.085 5.875 5.75 6.48 5 7.625H4.5V4.045H5.5L6 2.5L3.5 2Z" fill="#0F100F"></path>
+                                </svg>
+                                4 – 10 years exp.
+                              </span>
+                            </div>
+                            <button class="btn-blue-home btn-purple w-100">
+                              Relancer
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="fine-container">
+                <div class="row mx-0 mx-0 mx-0">
+                  <div class="col-sm-6">
+                    <div class="digifen_find_slider_left home_page home_page_text_conatiner">
+                      <div class="digifen-text-dark digifen-top-header text-left mb-30 mt-130">
+                        Chat freely with your contacts via internal messaging
+                      </div>
+                      <p class="digifen-para mb-30">
+                        Have recruiters contact you directly via the internal
+                        messaging system and keep a record of your exchanges.
+                      </p>
+                      <button class="btn-blue btn-purple">
+                        I create my account
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="digifen_find_job_slider_right position-relative slider_6">
+                      <div class="">
+                        <img src="Web_assets/home/img7.png" alt="">
+                      </div>
+                      <div class="slider1_img_conatiner">
+                        <div class="inner_Box form-group mb-0">
+                          <div class="box-profile d-flex justify-content-center">
+                            <div class="profile_img">
+                              <img src="Web_assets/home/profile_img1.png">
+                            </div>
+                            <div class="profile_conatiner">
+                              <p class="profile_name">Jade Martins</p>
+                              <p class="profile_para">
+                                Yes, I'm available this Wednesday for an
+                                appointment
+                              </p>
+                            </div>
+                            <div class="profile_date">11/07/2023</div>
+                          </div>
+                          <hr class="my-2">
+                          <div class="box-profile d-flex justify-content-center">
+                            <div class="profile_img">
+                              <img src="Web_assets/home/profile_img1.png">
+                            </div>
+                            <div class="profile_conatiner">
+                              <p class="profile_name">Jade Martins</p>
+                              <p class="profile_para">
+                                Yes, I'm available this Wednesday for an
+                                appointment
+                              </p>
+                            </div>
+                            <div class="profile_date">11/07/2023</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3" class=""></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4" class=""></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5" class=""></li>
+            </ol>
+          </div>
+        </div> -->
+  <div class="my-5">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row mx-0 mx-0 mx-0">
+            <div class="col-sm-6 d-flex align-content-">
+              <div class=" home_page home_page_text_conatiner">
+                <div class="third_section_title mb-30 mt-5">
+                Find quotes
+                </div>
+                <p class="digifen-para ">
+                  Register and choose the option that suits you best to view new requests for quotes in your sector and in your field of activity. 
+
+                </p>
+                <p>
+                  Filter according to your area of activity or by location to find requests for quotes that match your area of activity.</p>
+                  <button class="btn-blue btn-purple" onclick="window.location='signup_form_individual.html'">
+                      Create my account
+                  </button>
+              </div>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-start">
+            <div class="find_input home_page">
+              <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="form-group">
+                      <label class="label">Category</label>
+                      <select class="form-control">
+                        <option>Select from the list</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="form-group">
+                      <label class="label">Profession / Name </label>
+                      
+                          <input type="text" class="form-control mb-0" id="" placeholder="Enter">
+                        
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-12">
                       <div class="form-group">
-                        <label class="label text-white">Location </label>
+                        <label class="label">Location </label>
                         <div class="row">
                           <div class="col-lg-6">
                             <input type="text" class="form-control mb-0" id="" placeholder="Enter">
@@ -109,662 +605,101 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6">
-                      <div class="form-group">
-                        <label class="label text-white">Name </label>
-                        <input type="text" class="form-control" id="" placeholder="Enter">
-                      </div>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6">
-                      <div class="form-group">
-                        <label class="label text-white">Type de bâtiment </label>
-                        <select class="form-control">
-                          <option>Select from the list</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-sm-12 text-center margin-top-40">
-                      <a class="btn-blue-home btn-light d-block mx-auto" href="#">Research</a>
-                    </div>
-                    <p class="research_text text-white">It's free for private individuals. Post your request for a quote or search for a craftsman using the advanced filter.</p>
+               
+                  <div class="col-sm-12 text-center">
+                    <a class="btn-blue-home btn-light d-block mx-auto" href="#">Research</a>
                   </div>
+                
                 </div>
-              </div>
             </div>
-          </div>
-          
-        </div>
-      </div>
-      <div class="choose_perpect_div">
-        <div class="digifen-conatiner">
-          <!-- find job section -->
-          <div class="fine-container">
-            <div class="row mx-0 mx-0 mx-0">
-            
-              <div class="col-sm-12 pl-20">
-                <div class="all-type-work home_page">
-                  <div class="third_section_title">
-                       For all types of work
-                  </div>
-                <div class="type_of_work">
-                  <ul>
-                    <li>Cleaning</li>
-                    <li>Painting</li>
-                    <li>Garden</li>
-                    <li>Carpentry</li>
-                    <li>Electricity</li>
-                  </ul>
-                </div>
-                <div class="third_section_title">
-              Recommended by our users
-              </div>
-              
-              <p class="recommended-box-sub-text mb-20"> Because we know that word of mouth is the key to
-                 success, you can recommend our artisans and give us your opinion of their work.
-                  This is important to us so that we can offer you the best craftsmen.</p>
-                 
-                  <div class="recommended-box">
-                    <p class="text-white small_word">Give your opinion on the service</p>
-                    <div class="star-image">
-                      <img src="Web_assets/home/ico_star.svg" loading="lazy">
-                      <img src="Web_assets/home/ico_star-outline.svg">
-                      <img src="Web_assets/home/ico_star-outline.svg">
-                      <img src="Web_assets/home/ico_star-outline.svg">
-                      <img src="Web_assets/home/ico_star-outline.svg">
-                    </div>
-                    <div class="form-group">
-                    <textarea class="form-control">Please explain your rating 
-                      and give more details</textarea>
-                    </div>
-                    <div class="form-group">
-                      <label class="label text-white">Add photos of the work done</label>
-                      <div class="formbold-mb-5 formbold-file-input">
-                        <input type="file" name="file" id="file">
-                        <label for="file">
-                          <div>
-                            <span class="formbold-drop-file">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mx-2" width="19" height="19" viewBox="0 0 19 19" fill="none">
-                                    <path d="M12.5 10.25H10.25V2.75H8.75V10.25H6.5L9.5 13.25L12.5 10.25ZM3.5 14.75V16.25H15.5V14.75H3.5Z" fill="#565656"></path>
-                                  </svg>
-                                 Upload File
-                             </span>
-                           
-                          </div>
-                        </label>
-                      </div>
-                      </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
-     
-      </div>
-      <div class="digifen-conatiner">
-        
-          <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item">
-                <div class="fine-container">
-                  <div class="row mx-0 mx-0 mx-0">
-                    <div class="col-sm-6 d-flex align-content-">
-                      <div class="digifen_find_slider_left home_page home_page_text_conatiner">
-                        <div class="digifen-text-dark digifen-top-header text-left mb-30">
-                          Find the right contact for you
-                        </div>
-                        <p class="digifen-para ">
-                          Whether you're a freelancer looking for an assignment,
-                          or looking for a permanent contract, we've made it
-                          easy for you: it's all in one place! No need to search
-                          the whole internet.
-                        </p>
-                        <button class="btn-blue btn-purple">Check</button>
-                      </div>
-                    </div>
-                    <div class="col-sm-6 d-flex justify-content-start">
-                      <div class="digifen_find_job_slider_right position-relative slider1">
-                        <div class="h-100">
-                          <img src="Web_assets/home/img1.png" alt="">
-                        </div>
-                        <div class="slider1_img_conatiner slider_1">
-                          <div class="inner_Box form-group mb-0">
-                            <label class="label digifen-text-dark d-block">I am looking for a</label>
-                            <button class="border-red btn-slider btn-light">
-                              CDD
-                            </button>
-                            <button class="btn-slider btn-purple">CDI</button>
-                            <button class="btn-slider btn-purple">
-                              Freelance
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="fine-container">
-                  <div class="row mx-0 mx-0 mx-0">
-                    <div class="col-sm-6">
-                      <div class="digifen_find_slider_left home_page home_page_text_conatiner">
-                        <div class="digifen-text-dark digifen-top-header text-left mb-30 mt-130">
-                          Apply in one click
-                        </div>
-                        <p class="digifen-para mb-30">
-                          The information in your profile allows you to apply
-                          quickly without having to fill in your details each
-                          time.
-                        </p>
-                        <button class="btn-blue btn-purple">
-                          Find a contract
-                        </button>
-                      </div>
-                    </div>
-                    <div class="col-sm-6 d-flex justify-content-center">
-                      <div class="digifen_find_job_slider_right position-relative">
-                        <div class="">
-                          <img src="Web_assets/home/img3.png" alt="">
-                        </div>
-                        <div class="slider1_img_conatiner slider_2">
-                          <div class="inner_Box form-group mb-0">
-                            <label class="label digifen-text-dark d-block">Fullstack</label>
-                            <div class="box">
-                              <div class="box">
-                                <span class="digifen-text-dark small_word">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
-                                    <path d="M6 4.5C6.53043 4.5 7.03914 4.71071 7.41421 5.08579C7.78929 5.46086 8 5.96957 8 6.5C8 7.03043 7.78929 7.53914 7.41421 7.91421C7.03914 8.28929 6.53043 8.5 6 8.5C5.46957 8.5 4.96086 8.28929 4.58579 7.91421C4.21071 7.53914 4 7.03043 4 6.5C4 5.96957 4.21071 5.46086 4.58579 5.08579C4.96086 4.71071 5.46957 4.5 6 4.5ZM1.525 7H0.5V6H1.525C1.75 3.915 3.415 2.25 5.5 2.025V1H6.5V2.025C8.585 2.25 10.25 3.915 10.475 6H11.5V7H10.475C10.25 9.085 8.585 10.75 6.5 10.975V12H5.5V10.975C3.415 10.75 1.75 9.085 1.525 7ZM6 3C5.07174 3 4.1815 3.36875 3.52513 4.02513C2.86875 4.6815 2.5 5.57174 2.5 6.5C2.5 7.42826 2.86875 8.3185 3.52513 8.97487C4.1815 9.63125 5.07174 10 6 10C6.92826 10 7.8185 9.63125 8.47487 8.97487C9.13125 8.3185 9.5 7.42826 9.5 6.5C9.5 5.57174 9.13125 4.6815 8.47487 4.02513C7.8185 3.36875 6.92826 3 6 3Z" fill="#0F100F"></path>
-                                  </svg>
-                                  Lyon , remote possible
-                                </span>
-                                <span class="digifen-text-dark small_word">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
-                                    <path d="M3 1.5C2.73478 1.5 2.48043 1.60536 2.29289 1.79289C2.10536 1.98043 2 2.23478 2 2.5V10.5C2 10.7652 2.10536 11.0196 2.29289 11.2071C2.48043 11.3946 2.73478 11.5 3 11.5H9C9.26522 11.5 9.51957 11.3946 9.70711 11.2071C9.89464 11.0196 10 10.7652 10 10.5V4.5L7 1.5H3ZM3 2.5H6.5V5H9V10.5H3V2.5ZM4 6.5V7.5H8V6.5H4ZM4 8.5V9.5H6.5V8.5H4Z" fill="#0F100F"></path>
-                                  </svg>
-                                  CDI
-                                </span>
-                              </div>
-                              <div class="box">
-                                <span class="digifen-text-dark small_word">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
-                                    <path d="M1.5 3.5H10.5V9.5H1.5V3.5ZM6 5C6.39782 5 6.77936 5.15804 7.06066 5.43934C7.34196 5.72064 7.5 6.10218 7.5 6.5C7.5 6.89782 7.34196 7.27936 7.06066 7.56066C6.77936 7.84196 6.39782 8 6 8C5.60218 8 5.22064 7.84196 4.93934 7.56066C4.65804 7.27936 4.5 6.89782 4.5 6.5C4.5 6.10218 4.65804 5.72064 4.93934 5.43934C5.22064 5.15804 5.60218 5 6 5ZM3.5 4.5C3.5 4.76522 3.39464 5.01957 3.20711 5.20711C3.01957 5.39464 2.76522 5.5 2.5 5.5V7.5C2.76522 7.5 3.01957 7.60536 3.20711 7.79289C3.39464 7.98043 3.5 8.23478 3.5 8.5H8.5C8.5 8.23478 8.60536 7.98043 8.79289 7.79289C8.98043 7.60536 9.23478 7.5 9.5 7.5V5.5C9.23478 5.5 8.98043 5.39464 8.79289 5.20711C8.60536 5.01957 8.5 4.76522 8.5 4.5H3.5Z" fill="#0F100F"></path>
-                                  </svg>
-                                  50 000 – 60 000 €
-                                </span>
-                                <span class="digifen-text-dark small_word">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
-                                    <path d="M3.5 4.38V8.625H5.54L5.84 8.17C6.42 7.275 7.465 6.875 8.235 6.875C8.5 6.875 8.725 6.92 8.895 7C9.35 7.205 9.475 7.59 9.5 7.87C9.54 8.435 9.25 9.015 8.75 9.355C8.3 9.665 7.22 10 5.935 10C5.06 10 3.805 9.845 2.56 9.15C2.705 7.925 3 5.94 3.5 4.38ZM3.5 2C2 4.045 1.5 9.67 1.5 9.67C2.95 10.655 4.54 11 5.935 11C7.43 11 8.695 10.605 9.32 10.18C10.82 9.16 10.97 6.855 9.32 6.09C9 5.945 8.63 5.875 8.235 5.875C7.085 5.875 5.75 6.48 5 7.625H4.5V4.045H5.5L6 2.5L3.5 2Z" fill="#0F100F"></path>
-                                  </svg>
-                                  4 – 10 years exp.
-                                </span>
-                              </div>
-                              <button class="btn-blue-home btn-purple w-100">
-                                Apply
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item active">
-                <div class="fine-container">
-                  <div class="row mx-0 mx-0 mx-0">
-                    <div class="col-sm-6">
-                      <div class="digifen_find_slider_left home_page home_page_text_conatiner">
-                        <div class="digifen-text-dark digifen-top-header text-left mb-30 mt-130">
-                          Showcase your talents with your portfolio
-                        </div>
-                        <p class="digifen-para mb-30">
-                          The portfolio section lets you showcase the work
-                          you've done that makes you proud, giving recruiters a
-                          clearer idea of your talents.
-                        </p>
-                        <button class="btn-blue btn-purple">Let's go</button>
-                      </div>
-                    </div>
-                    <div class="col-sm-6 d-flex justify-content-center">
-                      <div class="digifen_find_job_slider_right position-relative">
-                        <div class="">
-                          <img src="Web_assets/home/img4.png" alt="">
-                        </div>
-                        <div class="slider1_img_conatiner slider_3">
-                          <div class="inner_Box form-group mb-0">
-                            <label class="label digifen-text-dark d-block">Portfolio</label>
-                            <div class="d-flex">
-                              <img src="Web_assets/home/portfolio1.png" loader="lazy" style="margin-right: 4px">
-                              <img src="Web_assets/home/portfolio2.png" loader="lazy">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="fine-container">
-                  <div class="row mx-0 mx-0 mx-0">
-                    <div class="col-sm-6">
-                      <div class="digifen_find_slider_left home_page home_page_text_conatiner">
-                        <div class="digifen-text-dark digifen-top-header text-left mb-30 mt-130">
-                          Find a tailor-made offer thanks to your personalised
-                          profile information
-                        </div>
-                        <p class="digifen-para mb-30">
-                          Find the ideal offer according to your location,
-                          salary preferences, level of experience, etc. Don't
-                          waste any more time searching through offers that
-                          don't match your criteria.
-                        </p>
-                        <button class="btn-blue btn-purple">
-                          Find a contract
-                        </button>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="digifen_find_job_slider_right position-relative slider_4">
-                        <div class="">
-                          <img src="Web_assets/home/img5.png" alt="">
-                        </div>
-                        <div class="slider1_img_conatiner">
-                          <div class="inner_Box form-group mb-0">
-                            <label class="label digifen-text-dark d-block">Fullstack</label>
-                            <div class="box">
-                              <div class="box">
-                                <span class="digifen-text-dark small_word">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
-                                    <path d="M6 4.5C6.53043 4.5 7.03914 4.71071 7.41421 5.08579C7.78929 5.46086 8 5.96957 8 6.5C8 7.03043 7.78929 7.53914 7.41421 7.91421C7.03914 8.28929 6.53043 8.5 6 8.5C5.46957 8.5 4.96086 8.28929 4.58579 7.91421C4.21071 7.53914 4 7.03043 4 6.5C4 5.96957 4.21071 5.46086 4.58579 5.08579C4.96086 4.71071 5.46957 4.5 6 4.5ZM1.525 7H0.5V6H1.525C1.75 3.915 3.415 2.25 5.5 2.025V1H6.5V2.025C8.585 2.25 10.25 3.915 10.475 6H11.5V7H10.475C10.25 9.085 8.585 10.75 6.5 10.975V12H5.5V10.975C3.415 10.75 1.75 9.085 1.525 7ZM6 3C5.07174 3 4.1815 3.36875 3.52513 4.02513C2.86875 4.6815 2.5 5.57174 2.5 6.5C2.5 7.42826 2.86875 8.3185 3.52513 8.97487C4.1815 9.63125 5.07174 10 6 10C6.92826 10 7.8185 9.63125 8.47487 8.97487C9.13125 8.3185 9.5 7.42826 9.5 6.5C9.5 5.57174 9.13125 4.6815 8.47487 4.02513C7.8185 3.36875 6.92826 3 6 3Z" fill="#0F100F"></path>
-                                  </svg>
-                                  Lyon , remote possible
-                                </span>
-                                <span class="digifen-text-dark small_word">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
-                                    <path d="M3 1.5C2.73478 1.5 2.48043 1.60536 2.29289 1.79289C2.10536 1.98043 2 2.23478 2 2.5V10.5C2 10.7652 2.10536 11.0196 2.29289 11.2071C2.48043 11.3946 2.73478 11.5 3 11.5H9C9.26522 11.5 9.51957 11.3946 9.70711 11.2071C9.89464 11.0196 10 10.7652 10 10.5V4.5L7 1.5H3ZM3 2.5H6.5V5H9V10.5H3V2.5ZM4 6.5V7.5H8V6.5H4ZM4 8.5V9.5H6.5V8.5H4Z" fill="#0F100F"></path>
-                                  </svg>
-                                  CDI
-                                </span>
-                              </div>
-                              <div class="box">
-                                <span class="digifen-text-dark small_word">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
-                                    <path d="M1.5 3.5H10.5V9.5H1.5V3.5ZM6 5C6.39782 5 6.77936 5.15804 7.06066 5.43934C7.34196 5.72064 7.5 6.10218 7.5 6.5C7.5 6.89782 7.34196 7.27936 7.06066 7.56066C6.77936 7.84196 6.39782 8 6 8C5.60218 8 5.22064 7.84196 4.93934 7.56066C4.65804 7.27936 4.5 6.89782 4.5 6.5C4.5 6.10218 4.65804 5.72064 4.93934 5.43934C5.22064 5.15804 5.60218 5 6 5ZM3.5 4.5C3.5 4.76522 3.39464 5.01957 3.20711 5.20711C3.01957 5.39464 2.76522 5.5 2.5 5.5V7.5C2.76522 7.5 3.01957 7.60536 3.20711 7.79289C3.39464 7.98043 3.5 8.23478 3.5 8.5H8.5C8.5 8.23478 8.60536 7.98043 8.79289 7.79289C8.98043 7.60536 9.23478 7.5 9.5 7.5V5.5C9.23478 5.5 8.98043 5.39464 8.79289 5.20711C8.60536 5.01957 8.5 4.76522 8.5 4.5H3.5Z" fill="#0F100F"></path>
-                                  </svg>
-                                  50 000 – 60 000 €
-                                </span>
-                                <span class="digifen-text-dark small_word">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
-                                    <path d="M3.5 4.38V8.625H5.54L5.84 8.17C6.42 7.275 7.465 6.875 8.235 6.875C8.5 6.875 8.725 6.92 8.895 7C9.35 7.205 9.475 7.59 9.5 7.87C9.54 8.435 9.25 9.015 8.75 9.355C8.3 9.665 7.22 10 5.935 10C5.06 10 3.805 9.845 2.56 9.15C2.705 7.925 3 5.94 3.5 4.38ZM3.5 2C2 4.045 1.5 9.67 1.5 9.67C2.95 10.655 4.54 11 5.935 11C7.43 11 8.695 10.605 9.32 10.18C10.82 9.16 10.97 6.855 9.32 6.09C9 5.945 8.63 5.875 8.235 5.875C7.085 5.875 5.75 6.48 5 7.625H4.5V4.045H5.5L6 2.5L3.5 2Z" fill="#0F100F"></path>
-                                  </svg>
-                                  4 – 10 years exp.
-                                </span>
-                              </div>
-                              <button class="btn-map">Java</button>
-                              <button class="btn-map">Angular</button>
-                              <button class="btn-map">JavaScript</button>
-                              <button class="btn-map">Python</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="fine-container">
-                  <div class="row mx-0 mx-0 mx-0">
-                    <div class="col-sm-6">
-                      <div class="digifen_find_slider_left home_page home_page_text_conatiner">
-                        <div class="digifen-text-dark digifen-top-header text-left mb-30 mt-130">
-                          Relaunch your application to confirm your choice
-                        </div>
-                        <p class="digifen-para mb-30">
-                          You've applied for a job that's right for you but you
-                          don't know how to follow up because the email is
-                          missing? We've thought of everything! The relaunch
-                          button will help you stand out from the crow mx-0 mx-0
-                          mx-0d and confirm your choice.
-                        </p>
-                        <button class="btn-blue btn-purple">
-                          I'm going for it
-                        </button>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="digifen_find_job_slider_right position-relative slider_5">
-                        <div class="">
-                          <img src="Web_assets/home/img6.png" alt="">
-                        </div>
-                        <div class="slider1_img_conatiner">
-                          <div class="inner_Box form-group mb-0">
-                            <label class="label digifen-text-dark d-block">Fullstack</label>
-                            <div class="box">
-                              <div class="box">
-                                <span class="digifen-text-dark small_word">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
-                                    <path d="M6 4.5C6.53043 4.5 7.03914 4.71071 7.41421 5.08579C7.78929 5.46086 8 5.96957 8 6.5C8 7.03043 7.78929 7.53914 7.41421 7.91421C7.03914 8.28929 6.53043 8.5 6 8.5C5.46957 8.5 4.96086 8.28929 4.58579 7.91421C4.21071 7.53914 4 7.03043 4 6.5C4 5.96957 4.21071 5.46086 4.58579 5.08579C4.96086 4.71071 5.46957 4.5 6 4.5ZM1.525 7H0.5V6H1.525C1.75 3.915 3.415 2.25 5.5 2.025V1H6.5V2.025C8.585 2.25 10.25 3.915 10.475 6H11.5V7H10.475C10.25 9.085 8.585 10.75 6.5 10.975V12H5.5V10.975C3.415 10.75 1.75 9.085 1.525 7ZM6 3C5.07174 3 4.1815 3.36875 3.52513 4.02513C2.86875 4.6815 2.5 5.57174 2.5 6.5C2.5 7.42826 2.86875 8.3185 3.52513 8.97487C4.1815 9.63125 5.07174 10 6 10C6.92826 10 7.8185 9.63125 8.47487 8.97487C9.13125 8.3185 9.5 7.42826 9.5 6.5C9.5 5.57174 9.13125 4.6815 8.47487 4.02513C7.8185 3.36875 6.92826 3 6 3Z" fill="#0F100F"></path>
-                                  </svg>
-                                  Lyon , remote possible
-                                </span>
-                                <span class="digifen-text-dark small_word">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
-                                    <path d="M3 1.5C2.73478 1.5 2.48043 1.60536 2.29289 1.79289C2.10536 1.98043 2 2.23478 2 2.5V10.5C2 10.7652 2.10536 11.0196 2.29289 11.2071C2.48043 11.3946 2.73478 11.5 3 11.5H9C9.26522 11.5 9.51957 11.3946 9.70711 11.2071C9.89464 11.0196 10 10.7652 10 10.5V4.5L7 1.5H3ZM3 2.5H6.5V5H9V10.5H3V2.5ZM4 6.5V7.5H8V6.5H4ZM4 8.5V9.5H6.5V8.5H4Z" fill="#0F100F"></path>
-                                  </svg>
-                                  CDI
-                                </span>
-                              </div>
-                              <div class="box">
-                                <span class="digifen-text-dark small_word">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
-                                    <path d="M1.5 3.5H10.5V9.5H1.5V3.5ZM6 5C6.39782 5 6.77936 5.15804 7.06066 5.43934C7.34196 5.72064 7.5 6.10218 7.5 6.5C7.5 6.89782 7.34196 7.27936 7.06066 7.56066C6.77936 7.84196 6.39782 8 6 8C5.60218 8 5.22064 7.84196 4.93934 7.56066C4.65804 7.27936 4.5 6.89782 4.5 6.5C4.5 6.10218 4.65804 5.72064 4.93934 5.43934C5.22064 5.15804 5.60218 5 6 5ZM3.5 4.5C3.5 4.76522 3.39464 5.01957 3.20711 5.20711C3.01957 5.39464 2.76522 5.5 2.5 5.5V7.5C2.76522 7.5 3.01957 7.60536 3.20711 7.79289C3.39464 7.98043 3.5 8.23478 3.5 8.5H8.5C8.5 8.23478 8.60536 7.98043 8.79289 7.79289C8.98043 7.60536 9.23478 7.5 9.5 7.5V5.5C9.23478 5.5 8.98043 5.39464 8.79289 5.20711C8.60536 5.01957 8.5 4.76522 8.5 4.5H3.5Z" fill="#0F100F"></path>
-                                  </svg>
-                                  50 000 – 60 000 €
-                                </span>
-                                <span class="digifen-text-dark small_word">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
-                                    <path d="M3.5 4.38V8.625H5.54L5.84 8.17C6.42 7.275 7.465 6.875 8.235 6.875C8.5 6.875 8.725 6.92 8.895 7C9.35 7.205 9.475 7.59 9.5 7.87C9.54 8.435 9.25 9.015 8.75 9.355C8.3 9.665 7.22 10 5.935 10C5.06 10 3.805 9.845 2.56 9.15C2.705 7.925 3 5.94 3.5 4.38ZM3.5 2C2 4.045 1.5 9.67 1.5 9.67C2.95 10.655 4.54 11 5.935 11C7.43 11 8.695 10.605 9.32 10.18C10.82 9.16 10.97 6.855 9.32 6.09C9 5.945 8.63 5.875 8.235 5.875C7.085 5.875 5.75 6.48 5 7.625H4.5V4.045H5.5L6 2.5L3.5 2Z" fill="#0F100F"></path>
-                                  </svg>
-                                  4 – 10 years exp.
-                                </span>
-                              </div>
-                              <button class="btn-blue-home btn-purple w-100">
-                                Relancer
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="fine-container">
-                  <div class="row mx-0 mx-0 mx-0">
-                    <div class="col-sm-6">
-                      <div class="digifen_find_slider_left home_page home_page_text_conatiner">
-                        <div class="digifen-text-dark digifen-top-header text-left mb-30 mt-130">
-                          Chat freely with your contacts via internal messaging
-                        </div>
-                        <p class="digifen-para mb-30">
-                          Have recruiters contact you directly via the internal
-                          messaging system and keep a record of your exchanges.
-                        </p>
-                        <button class="btn-blue btn-purple">
-                          I create my account
-                        </button>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="digifen_find_job_slider_right position-relative slider_6">
-                        <div class="">
-                          <img src="Web_assets/home/img7.png" alt="">
-                        </div>
-                        <div class="slider1_img_conatiner">
-                          <div class="inner_Box form-group mb-0">
-                            <div class="box-profile d-flex justify-content-center">
-                              <div class="profile_img">
-                                <img src="Web_assets/home/profile_img1.png">
-                              </div>
-                              <div class="profile_conatiner">
-                                <p class="profile_name">Jade Martins</p>
-                                <p class="profile_para">
-                                  Yes, I'm available this Wednesday for an
-                                  appointment
-                                </p>
-                              </div>
-                              <div class="profile_date">11/07/2023</div>
-                            </div>
-                            <hr class="my-2">
-                            <div class="box-profile d-flex justify-content-center">
-                              <div class="profile_img">
-                                <img src="Web_assets/home/profile_img1.png">
-                              </div>
-                              <div class="profile_conatiner">
-                                <p class="profile_name">Jade Martins</p>
-                                <p class="profile_para">
-                                  Yes, I'm available this Wednesday for an
-                                  appointment
-                                </p>
-                              </div>
-                              <div class="profile_date">11/07/2023</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3" class=""></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="4" class=""></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="5" class=""></li>
-              </ol>
-            </div>
-          </div> -->
-    <div class="my-5">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row mx-0 mx-0 mx-0">
+        <div class="carousel-item">
+          <div class="row mx-0 mx-0 mx-0">
               <div class="col-sm-6 d-flex align-content-">
                 <div class=" home_page home_page_text_conatiner">
                   <div class="third_section_title mb-30 mt-5">
-                  Find quotes
+                      Showcase your achievements
                   </div>
                   <p class="digifen-para ">
-                    Register and choose the option that suits you best to view new requests for quotes in your sector and in your field of activity. 
+                      Create your profile and introduce yourself with a description, give more details about the type of work you want to showcase. And above all, show off your work in the portfolio to make yourself stand out.
 
                   </p>
-                  <p>
-                    Filter according to your area of activity or by location to find requests for quotes that match your area of activity.</p>
+                  
                     <button class="btn-blue btn-purple" onclick="window.location='signup_form_individual.html'">
                         Create my account
                     </button>
                 </div>
               </div>
               <div class="col-sm-6 d-flex justify-content-start">
-              <div class="find_input home_page">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                      <div class="form-group">
-                        <label class="label">Category</label>
-                        <select class="form-control">
-                          <option>Select from the list</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                      <div class="form-group">
-                        <label class="label">Profession / Name </label>
-                        
-                            <input type="text" class="form-control mb-0" id="" placeholder="Enter">
-                          
-                      </div>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                        <div class="form-group">
-                          <label class="label">Location </label>
-                          <div class="row">
-                            <div class="col-lg-6">
-                              <input type="text" class="form-control mb-0" id="" placeholder="Enter">
-                            </div>
-                            <div class="col-lg-6">
-                              <select class="form-control mb-0">
-                                <option>Select from the list</option>
-                              </select>
-                            </div>
-                          </div>
+               
+                  <div class="carftmen_review_background">
+                    <img class="d-block w-100 border-radius-15px-topleft-topRight" src="Web_assets/dashboard/review_1.png" alt="First slide">
+                    <!-- <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img class="d-block w-100 border-radius-15px-topleft-topRight" src="Web_assets/dashboard/review_1.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100 border-radius-15px-topleft-topRight" src="Web_assets/dashboard/review_2.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100 border-radius-15px-topleft-topRight" src="Web_assets/dashboard/review_1.png" alt="Third slide">
                         </div>
                       </div>
-                 
-                    <div class="col-sm-12 text-center">
-                      <a class="btn-blue-home btn-light d-block mx-auto" href="#">Research</a>
+                    
+                    </div> -->
+                    <div class="review_text_container">
+                      <div class="text-dark fs-11 text-dark font-weight-600 ">
+                        Painting a building
+                      </div>
+                      <p class="fs-11 mt-2">
+                        Mini description of the work carried out
+                      </p>
+                      <p class="fs-11 font-weight-600 mb-4">Customer review</p>
+                      <div class="star_box">
+                        <img src="Web_assets/dashboard/star.svg">
+                        <img src="Web_assets/dashboard/star.svg">
+                        <img src="Web_assets/dashboard/star.svg">
+                        <img src="Web_assets/dashboard/star-outline.svg">
+                        <img src="Web_assets/dashboard/star-outline.svg">
+           
+                   </div>
                     </div>
-                  
                   </div>
-              </div>
+                 
               </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row mx-0 mx-0 mx-0">
-                <div class="col-sm-6 d-flex align-content-">
-                  <div class=" home_page home_page_text_conatiner">
-                    <div class="third_section_title mb-30 mt-5">
-                        Showcase your achievements
-                    </div>
-                    <p class="digifen-para ">
-                        Create your profile and introduce yourself with a description, give more details about the type of work you want to showcase. And above all, show off your work in the portfolio to make yourself stand out.
-  
-                    </p>
-                    
-                      <button class="btn-blue btn-purple" onclick="window.location='signup_form_individual.html'">
-                          Create my account
-                      </button>
+        </div>
+        <div class="carousel-item">
+          <div class="row mx-0 mx-0 mx-0">
+              <div class="col-sm-4 d-flex align-content-">
+                <div class=" home_page home_page_text_conatiner">
+                  <div class="third_section_title mb-30 mt-5">
+                    Track your projects
                   </div>
-                </div>
-                <div class="col-sm-6 d-flex justify-content-start">
-                 
-                    <div class="carftmen_review_background">
-                      <img class="d-block w-100 border-radius-15px-topleft-topRight" src="Web_assets/dashboard/review_1.png" alt="First slide">
-                      <!-- <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                          <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-                          <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-                          <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img class="d-block w-100 border-radius-15px-topleft-topRight" src="Web_assets/dashboard/review_1.png" alt="First slide">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100 border-radius-15px-topleft-topRight" src="Web_assets/dashboard/review_2.png" alt="Second slide">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100 border-radius-15px-topleft-topRight" src="Web_assets/dashboard/review_1.png" alt="Third slide">
-                          </div>
-                        </div>
-                      
-                      </div> -->
-                      <div class="review_text_container">
-                        <div class="text-dark fs-11 text-dark font-weight-600 ">
-                          Painting a building
-                        </div>
-                        <p class="fs-11 mt-2">
-                          Mini description of the work carried out
-                        </p>
-                        <p class="fs-11 font-weight-600 mb-4">Customer review</p>
-                        <div class="star_box">
-                          <img src="Web_assets/dashboard/star.svg">
-                          <img src="Web_assets/dashboard/star.svg">
-                          <img src="Web_assets/dashboard/star.svg">
-                          <img src="Web_assets/dashboard/star-outline.svg">
-                          <img src="Web_assets/dashboard/star-outline.svg">
-             
-                     </div>
-                      </div>
-                    </div>
-                   
+                  <p class="digifen-para ">
+                    To help you get organised, we've created a progress chart.
+                     It will help you keep track of payments and other administrative tasks.
+
+                  </p>
+                  
+                    <button class="btn-blue btn-purple" onclick="window.location='signup_form_individual.html'">
+                        Create my account
+                    </button>
                 </div>
               </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row mx-0 mx-0 mx-0">
-                <div class="col-sm-4 d-flex align-content-">
-                  <div class=" home_page home_page_text_conatiner">
-                    <div class="third_section_title mb-30 mt-5">
-                      Track your projects
-                    </div>
-                    <p class="digifen-para ">
-                      To help you get organised, we've created a progress chart.
-                       It will help you keep track of payments and other administrative tasks.
-  
-                    </p>
-                    
-                      <button class="btn-blue btn-purple" onclick="window.location='signup_form_individual.html'">
-                          Create my account
-                      </button>
-                  </div>
-                </div>
-                <div class="col-sm-8 d-flex justify-content-center pt-5">
-                    <div class="">
-                     <div class="row">
-                        <div class="col-sm-6">
-                          <p class="dashboard-title ">Quote to send</p>
-                          <div class="dashboard_box">
-                            <div class="offer-can">
-                                <div class="h-auto  ">
-                                    <div class="header_newMission position-relative w-100">
-                                   
-                                        <span class="fs-13 dashboard-normal-text float-right">
-
-
-                                            <label class="dropdown-side-menu">
-
-                                                <div class="sidemenu">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                                        <path d="M6.99967 9.33337C7.30909 9.33337 7.60584 9.45629 7.82463 9.67508C8.04342 9.89388 8.16634 10.1906 8.16634 10.5C8.16634 10.8095 8.04342 11.1062 7.82463 11.325C7.60584 11.5438 7.30909 11.6667 6.99967 11.6667C6.69026 11.6667 6.39351 11.5438 6.17472 11.325C5.95592 11.1062 5.83301 10.8095 5.83301 10.5C5.83301 10.1906 5.95592 9.89388 6.17472 9.67508C6.39351 9.45629 6.69026 9.33337 6.99967 9.33337ZM6.99967 5.83337C7.30909 5.83337 7.60584 5.95629 7.82463 6.17508C8.04342 6.39388 8.16634 6.69062 8.16634 7.00004C8.16634 7.30946 8.04342 7.60621 7.82463 7.825C7.60584 8.04379 7.30909 8.16671 6.99967 8.16671C6.69026 8.16671 6.39351 8.04379 6.17472 7.825C5.95592 7.60621 5.83301 7.30946 5.83301 7.00004C5.83301 6.69062 5.95592 6.39388 6.17472 6.17508C6.39351 5.95629 6.69026 5.83337 6.99967 5.83337ZM6.99967 2.33337C7.30909 2.33337 7.60584 2.45629 7.82463 2.67508C8.04342 2.89388 8.16634 3.19062 8.16634 3.50004C8.16634 3.80946 8.04342 4.10621 7.82463 4.325C7.60584 4.54379 7.30909 4.66671 6.99967 4.66671C6.69026 4.66671 6.39351 4.54379 6.17472 4.325C5.95592 4.10621 5.83301 3.80946 5.83301 3.50004C5.83301 3.19062 5.95592 2.89388 6.17472 2.67508C6.39351 2.45629 6.69026 2.33337 6.99967 2.33337Z" fill="#1F2E4C"></path>
-                                                        </svg>
-                                                </div>
-                                                <div class="dropdown-content-side-menu">
-                                                    <a href="#" data-target="#technologyModal" data-toggle="modal">Modify</a>
-                                                    <a href="#">Delete</a>
-                                                   
-                                                  </div>
-                                               
-
-                                            </label>
-                                        </span>
-
-                                        <div class="media mt-2">
-                                            <div class="avatar-upload-small">
-                                                <div class="avatar-preview-small">
-                                                    <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
-                                                </div>
-                                            </div>
-                                            <div class="media-body ">
-                                                <div class="profile_description_view_name-small">
-                                                    <div class="text-dark mb-1 mb-5 fs-13 font-weight-600 ">
-
-                                                        Title of request
-                                                    </div>
-                                                    <div class="text-dark mb-0 fs-1 ">
-                                                        Cleaning
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                         <div class="box  mx-0 mt-1">
-                                         
-                                              <span class="fs-11">
-                                              <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
-                                              Annecy 
-                                              </span>
-                                              <span class="fs-11">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
-                                                    <path d="M9.5 2H9V1H8V2H4V1H3V2H2.5C1.945 2 1.5 2.45 1.5 3V10C1.5 10.555 1.95 11 2.5 11H9.5C10.055 11 10.5 10.555 10.5 10V3C10.5 2.45 10.055 2 9.5 2ZM9.5 10H2.5V5H9.5V10ZM9.5 4H2.5V3H9.5V4Z" fill="#1F2E4C"/>
-                                                    </svg>
-                                               10/12/2023
-                                              </span>
-                                          </div>
-                                          <p class="fs-8 dashboard-normal-text  text-gray w-100 d-block mb-0"> 10-03-2015</p>
-                                    </div>
-                                </div>
-                        </div>
-                        </div>
-                       
-                      </div>
+              <div class="col-sm-8 d-flex justify-content-center pt-5">
+                  <div class="">
+                   <div class="row">
                       <div class="col-sm-6">
-                        <p class="dashboard-title ">In Proccess</p>
+                        <p class="dashboard-title ">Quote to send</p>
                         <div class="dashboard_box">
                           <div class="offer-can">
                               <div class="h-auto  ">
@@ -824,557 +759,622 @@
                                         <p class="fs-8 dashboard-normal-text  text-gray w-100 d-block mb-0"> 10-03-2015</p>
                                   </div>
                               </div>
-                          </div>
-                        </div>
                       </div>
-
-                     </div>
+                      </div>
                      
                     </div>
+                    <div class="col-sm-6">
+                      <p class="dashboard-title ">In Proccess</p>
+                      <div class="dashboard_box">
+                        <div class="offer-can">
+                            <div class="h-auto  ">
+                                <div class="header_newMission position-relative w-100">
+                               
+                                    <span class="fs-13 dashboard-normal-text float-right">
+
+
+                                        <label class="dropdown-side-menu">
+
+                                            <div class="sidemenu">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                    <path d="M6.99967 9.33337C7.30909 9.33337 7.60584 9.45629 7.82463 9.67508C8.04342 9.89388 8.16634 10.1906 8.16634 10.5C8.16634 10.8095 8.04342 11.1062 7.82463 11.325C7.60584 11.5438 7.30909 11.6667 6.99967 11.6667C6.69026 11.6667 6.39351 11.5438 6.17472 11.325C5.95592 11.1062 5.83301 10.8095 5.83301 10.5C5.83301 10.1906 5.95592 9.89388 6.17472 9.67508C6.39351 9.45629 6.69026 9.33337 6.99967 9.33337ZM6.99967 5.83337C7.30909 5.83337 7.60584 5.95629 7.82463 6.17508C8.04342 6.39388 8.16634 6.69062 8.16634 7.00004C8.16634 7.30946 8.04342 7.60621 7.82463 7.825C7.60584 8.04379 7.30909 8.16671 6.99967 8.16671C6.69026 8.16671 6.39351 8.04379 6.17472 7.825C5.95592 7.60621 5.83301 7.30946 5.83301 7.00004C5.83301 6.69062 5.95592 6.39388 6.17472 6.17508C6.39351 5.95629 6.69026 5.83337 6.99967 5.83337ZM6.99967 2.33337C7.30909 2.33337 7.60584 2.45629 7.82463 2.67508C8.04342 2.89388 8.16634 3.19062 8.16634 3.50004C8.16634 3.80946 8.04342 4.10621 7.82463 4.325C7.60584 4.54379 7.30909 4.66671 6.99967 4.66671C6.69026 4.66671 6.39351 4.54379 6.17472 4.325C5.95592 4.10621 5.83301 3.80946 5.83301 3.50004C5.83301 3.19062 5.95592 2.89388 6.17472 2.67508C6.39351 2.45629 6.69026 2.33337 6.99967 2.33337Z" fill="#1F2E4C"></path>
+                                                    </svg>
+                                            </div>
+                                            <div class="dropdown-content-side-menu">
+                                                <a href="#" data-target="#technologyModal" data-toggle="modal">Modify</a>
+                                                <a href="#">Delete</a>
+                                               
+                                              </div>
+                                           
+
+                                        </label>
+                                    </span>
+
+                                    <div class="media mt-2">
+                                        <div class="avatar-upload-small">
+                                            <div class="avatar-preview-small">
+                                                <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="media-body ">
+                                            <div class="profile_description_view_name-small">
+                                                <div class="text-dark mb-1 mb-5 fs-13 font-weight-600 ">
+
+                                                    Title of request
+                                                </div>
+                                                <div class="text-dark mb-0 fs-1 ">
+                                                    Cleaning
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="box  mx-0 mt-1">
+                                     
+                                          <span class="fs-11">
+                                          <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
+                                          Annecy 
+                                          </span>
+                                          <span class="fs-11">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                                                <path d="M9.5 2H9V1H8V2H4V1H3V2H2.5C1.945 2 1.5 2.45 1.5 3V10C1.5 10.555 1.95 11 2.5 11H9.5C10.055 11 10.5 10.555 10.5 10V3C10.5 2.45 10.055 2 9.5 2ZM9.5 10H2.5V5H9.5V10ZM9.5 4H2.5V3H9.5V4Z" fill="#1F2E4C"/>
+                                                </svg>
+                                           10/12/2023
+                                          </span>
+                                      </div>
+                                      <p class="fs-8 dashboard-normal-text  text-gray w-100 d-block mb-0"> 10-03-2015</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+                   </div>
+                   
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row mx-0 mx-0 mx-0">
+              <div class="col-sm-5 d-flex align-content-">
+                <div class=" home_page home_page_text_conatiner">
+                  <div class="third_section_title mb-30 mt-5">
+                    Keep in touch
+                  </div>
+                  <p class="digifen-para ">
+                    Add your customers to your contacts and expand your address book. If you need to come back for regular work or anything else, your contacts are automatically saved!
+
+                  </p>
+                  
+                    <button class="btn-blue btn-purple" onclick="window.location='signup_form_individual.html'">
+                        Create my account
+                    </button>
                 </div>
               </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row mx-0 mx-0 mx-0">
-                <div class="col-sm-5 d-flex align-content-">
-                  <div class=" home_page home_page_text_conatiner">
-                    <div class="third_section_title mb-30 mt-5">
-                      Keep in touch
-                    </div>
-                    <p class="digifen-para ">
-                      Add your customers to your contacts and expand your address book. If you need to come back for regular work or anything else, your contacts are automatically saved!
-  
-                    </p>
-                    
-                      <button class="btn-blue btn-purple" onclick="window.location='signup_form_individual.html'">
-                          Create my account
-                      </button>
-                  </div>
+              <div class="col-sm-12 col-md-12 col-lg-7">
+                
+               <div class="calender_outer_boxbox" style="height:300px">
+                <div class="alphabet">
+                    <span>A</span>
+                    <span>B</span>
+                    <span>C</span>
+                    <span>D</span>
+                    <span class="active">E</span>
+                    <span>F</span>
+                    <span>G</span>
+                    <span>H</span>
+                    <span>I</span>
+                    <span>J</span>
+                    <span>K</span>
+                    <span>L</span>
+                    <span>M</span>
+                    <span class="active">N</span>
+                    <span>L</span>
+                    <span>M</span>
+                    <span>O</span>
+                    <span>P</span>
+                    <span>Q</span>
+                    <span>R</span>
+                    <span>S</span>
+                    <span>T</span>
+                    <span>U</span>
+                    <span>W</span>
+                    <span>X</span>
+                    <span>Y</span>
+                    <span>Z</span>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-7">
-                  
-                 <div class="calender_outer_boxbox" style="height:300px">
-                  <div class="alphabet">
-                      <span>A</span>
-                      <span>B</span>
-                      <span>C</span>
-                      <span>D</span>
-                      <span class="active">E</span>
-                      <span>F</span>
-                      <span>G</span>
-                      <span>H</span>
-                      <span>I</span>
-                      <span>J</span>
-                      <span>K</span>
-                      <span>L</span>
-                      <span>M</span>
-                      <span class="active">N</span>
-                      <span>L</span>
-                      <span>M</span>
-                      <span>O</span>
-                      <span>P</span>
-                      <span>Q</span>
-                      <span>R</span>
-                      <span>S</span>
-                      <span>T</span>
-                      <span>U</span>
-                      <span>W</span>
-                      <span>X</span>
-                      <span>Y</span>
-                      <span>Z</span>
-                  </div>
-                  <div class="calender_user">
-                      <div class="contact_profile" style="justify-content: space-evenly;
-                      ">
-                          <div class="offer-can  calender_width">
-                              <div class="h-auto  ">
-                                  <div class="header_newMission position-relative w-100">
-                                 
-                                      <div class="media mt-2">
-                                          <div class="avatar-upload-small">
-                                              <div class="avatar-preview-small">
-                                                  <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
-                                              </div>
-                                          </div>
-                                          <div class="media-body ">
-                                              <div class="profile_description_view_name-small">
-                                                  <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
-                                                      Joanna Prim
-                                                   
-                                                  </div>
-                                                  <div class="text-dark mb-0 fs-1 ">
-                                                      Cleaning
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                       <div class="box  mx-0">
-                                       
-                                            <span class=" fs-10">
-                                            <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
-                                        
-                                            Located in Lyon
-                                      
-                                            </span>
-                                            <span class="fs-10">
-                                              <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
-                                                  <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
-                                                  </svg>
-                                              06 07 20 38 36
-                                            </span>
+                <div class="calender_user">
+                    <div class="contact_profile" style="justify-content: space-evenly;
+                    ">
+                        <div class="offer-can  calender_width">
+                            <div class="h-auto  ">
+                                <div class="header_newMission position-relative w-100">
+                               
+                                    <div class="media mt-2">
+                                        <div class="avatar-upload-small">
+                                            <div class="avatar-preview-small">
+                                                <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
+                                            </div>
                                         </div>
-                                       
-                                  </div>
-                               </div>
-                          </div>
-                            
-                          <div class="offer-can  calender_width">
-                              <div class="h-auto  ">
-                                  <div class="header_newMission position-relative w-100">
-                                 
-                                      <div class="media mt-2">
-                                          <div class="avatar-upload-small">
-                                              <div class="avatar-preview-small">
-                                                  <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
-                                              </div>
-                                          </div>
-                                          <div class="media-body ">
-                                              <div class="profile_description_view_name-small">
-                                                  <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
-                                                      Joanna Prim
-                                                   
-                                                  </div>
-                                                  <div class="text-dark mb-0 fs-1 ">
-                                                      Cleaning
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                       <div class="box  mx-0">
-                                       
-                                            <span class=" fs-10">
-                                            <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
-                                        
-                                            Located in Lyon
-                                      
-                                            </span>
-                                            <span class="fs-10">
-                                              <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
-                                                  <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
-                                                  </svg>
-                                              06 07 20 38 36
-                                            </span>
+                                        <div class="media-body ">
+                                            <div class="profile_description_view_name-small">
+                                                <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
+                                                    Joanna Prim
+                                                 
+                                                </div>
+                                                <div class="text-dark mb-0 fs-1 ">
+                                                    Cleaning
+                                                </div>
+                                            </div>
                                         </div>
-                                       
-                                  </div>
-                               </div>
-                          </div>
-                             
-                          <div class="offer-can  calender_width">
-                              <div class="h-auto  ">
-                                  <div class="header_newMission position-relative w-100">
-                                 
-                                      <div class="media mt-2">
-                                          <div class="avatar-upload-small">
-                                              <div class="avatar-preview-small">
-                                                  <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
-                                              </div>
-                                          </div>
-                                          <div class="media-body ">
-                                              <div class="profile_description_view_name-small">
-                                                  <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
-                                                      Joanna Prim
-                                                   
-                                                  </div>
-                                                  <div class="text-dark mb-0 fs-1 ">
-                                                      Cleaning
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                       <div class="box  mx-0">
-                                       
-                                            <span class=" fs-10">
-                                            <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
-                                        
-                                            Located in Lyon
+                                    </div>
+                                     <div class="box  mx-0">
+                                     
+                                          <span class=" fs-10">
+                                          <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
                                       
-                                            </span>
-                                            <span class="fs-10">
-                                              <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
-                                                  <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
-                                                  </svg>
-                                              06 07 20 38 36
-                                            </span>
-                                        </div>
-                                       
-                                  </div>
-                               </div>
-                          </div>
-                            
-                          <div class="offer-can  calender_width">
-                              <div class="h-auto  ">
-                                  <div class="header_newMission position-relative w-100">
-                                 
-                                      <div class="media mt-2">
-                                          <div class="avatar-upload-small">
-                                              <div class="avatar-preview-small">
-                                                  <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
-                                              </div>
-                                          </div>
-                                          <div class="media-body ">
-                                              <div class="profile_description_view_name-small">
-                                                  <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
-                                                      Joanna Prim
-                                                   
-                                                  </div>
-                                                  <div class="text-dark mb-0 fs-1 ">
-                                                      Cleaning
-                                                  </div>
-                                              </div>
-                                          </div>
+                                          Located in Lyon
+                                    
+                                          </span>
+                                          <span class="fs-10">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                                <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
+                                                </svg>
+                                            06 07 20 38 36
+                                          </span>
                                       </div>
-                                       <div class="box  mx-0">
-                                       
-                                            <span class=" fs-10">
-                                            <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
-                                        
-                                            Located in Lyon
-                                      
-                                            </span>
-                                            <span class="fs-10">
-                                              <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
-                                                  <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
-                                                  </svg>
-                                              06 07 20 38 36
-                                            </span>
-                                        </div>
-                                       
-                                  </div>
-                               </div>
-                          </div>
+                                     
+                                </div>
+                             </div>
+                        </div>
                           
-                          <div class="offer-can  calender_width">
-                              <div class="h-auto  ">
-                                  <div class="header_newMission position-relative w-100">
-                                 
-                                      <div class="media mt-2">
-                                          <div class="avatar-upload-small">
-                                              <div class="avatar-preview-small">
-                                                  <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
-                                              </div>
-                                          </div>
-                                          <div class="media-body ">
-                                              <div class="profile_description_view_name-small">
-                                                  <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
-                                                      Joanna Prim
-                                                   
-                                                  </div>
-                                                  <div class="text-dark mb-0 fs-1 ">
-                                                      Cleaning
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                       <div class="box  mx-0">
-                                       
-                                            <span class=" fs-10">
-                                            <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
-                                        
-                                            Located in Lyon
-                                      
-                                            </span>
-                                            <span class="fs-10">
-                                              <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
-                                                  <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
-                                                  </svg>
-                                              06 07 20 38 36
-                                            </span>
+                        <div class="offer-can  calender_width">
+                            <div class="h-auto  ">
+                                <div class="header_newMission position-relative w-100">
+                               
+                                    <div class="media mt-2">
+                                        <div class="avatar-upload-small">
+                                            <div class="avatar-preview-small">
+                                                <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
+                                            </div>
                                         </div>
-                                       
-                                  </div>
-                               </div>
-                          </div>
+                                        <div class="media-body ">
+                                            <div class="profile_description_view_name-small">
+                                                <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
+                                                    Joanna Prim
+                                                 
+                                                </div>
+                                                <div class="text-dark mb-0 fs-1 ">
+                                                    Cleaning
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="box  mx-0">
+                                     
+                                          <span class=" fs-10">
+                                          <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
+                                      
+                                          Located in Lyon
+                                    
+                                          </span>
+                                          <span class="fs-10">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                                <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
+                                                </svg>
+                                            06 07 20 38 36
+                                          </span>
+                                      </div>
+                                     
+                                </div>
+                             </div>
+                        </div>
+                           
+                        <div class="offer-can  calender_width">
+                            <div class="h-auto  ">
+                                <div class="header_newMission position-relative w-100">
+                               
+                                    <div class="media mt-2">
+                                        <div class="avatar-upload-small">
+                                            <div class="avatar-preview-small">
+                                                <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="media-body ">
+                                            <div class="profile_description_view_name-small">
+                                                <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
+                                                    Joanna Prim
+                                                 
+                                                </div>
+                                                <div class="text-dark mb-0 fs-1 ">
+                                                    Cleaning
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="box  mx-0">
+                                     
+                                          <span class=" fs-10">
+                                          <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
+                                      
+                                          Located in Lyon
+                                    
+                                          </span>
+                                          <span class="fs-10">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                                <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
+                                                </svg>
+                                            06 07 20 38 36
+                                          </span>
+                                      </div>
+                                     
+                                </div>
+                             </div>
+                        </div>
                           
-                          <div class="offer-can  calender_width">
-                              <div class="h-auto  ">
-                                  <div class="header_newMission position-relative w-100">
-                                 
-                                      <div class="media mt-2">
-                                          <div class="avatar-upload-small">
-                                              <div class="avatar-preview-small">
-                                                  <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
-                                              </div>
-                                          </div>
-                                          <div class="media-body ">
-                                              <div class="profile_description_view_name-small">
-                                                  <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
-                                                      Joanna Prim
-                                                   
-                                                  </div>
-                                                  <div class="text-dark mb-0 fs-1 ">
-                                                      Cleaning
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                       <div class="box  mx-0">
-                                       
-                                            <span class=" fs-10">
-                                            <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
-                                        
-                                            Located in Lyon
-                                      
-                                            </span>
-                                            <span class="fs-10">
-                                              <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
-                                                  <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
-                                                  </svg>
-                                              06 07 20 38 36
-                                            </span>
+                        <div class="offer-can  calender_width">
+                            <div class="h-auto  ">
+                                <div class="header_newMission position-relative w-100">
+                               
+                                    <div class="media mt-2">
+                                        <div class="avatar-upload-small">
+                                            <div class="avatar-preview-small">
+                                                <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
+                                            </div>
                                         </div>
-                                       
-                                  </div>
-                               </div>
-                          </div>
-                          
-                          <div class="offer-can  calender_width">
-                              <div class="h-auto  ">
-                                  <div class="header_newMission position-relative w-100">
-                                 
-                                      <div class="media mt-2">
-                                          <div class="avatar-upload-small">
-                                              <div class="avatar-preview-small">
-                                                  <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
-                                              </div>
-                                          </div>
-                                          <div class="media-body ">
-                                              <div class="profile_description_view_name-small">
-                                                  <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
-                                                      Joanna Prim
-                                                   
-                                                  </div>
-                                                  <div class="text-dark mb-0 fs-1 ">
-                                                      Cleaning
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                       <div class="box  mx-0">
-                                       
-                                            <span class=" fs-10">
-                                            <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
-                                        
-                                            Located in Lyon
-                                      
-                                            </span>
-                                            <span class="fs-10">
-                                              <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
-                                                  <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
-                                                  </svg>
-                                              06 07 20 38 36
-                                            </span>
+                                        <div class="media-body ">
+                                            <div class="profile_description_view_name-small">
+                                                <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
+                                                    Joanna Prim
+                                                 
+                                                </div>
+                                                <div class="text-dark mb-0 fs-1 ">
+                                                    Cleaning
+                                                </div>
+                                            </div>
                                         </div>
-                                       
-                                  </div>
-                               </div>
-                          </div>
-                          
-                          <div class="offer-can  calender_width">
-                              <div class="h-auto  ">
-                                  <div class="header_newMission position-relative w-100">
-                                 
-                                      <div class="media mt-2">
-                                          <div class="avatar-upload-small">
-                                              <div class="avatar-preview-small">
-                                                  <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
-                                              </div>
-                                          </div>
-                                          <div class="media-body ">
-                                              <div class="profile_description_view_name-small">
-                                                  <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
-                                                      Joanna Prim
-                                                   
-                                                  </div>
-                                                  <div class="text-dark mb-0 fs-1 ">
-                                                      Cleaning
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                       <div class="box  mx-0">
-                                       
-                                            <span class=" fs-10">
-                                            <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
-                                        
-                                            Located in Lyon
+                                    </div>
+                                     <div class="box  mx-0">
+                                     
+                                          <span class=" fs-10">
+                                          <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
                                       
-                                            </span>
-                                            <span class="fs-10">
-                                              <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
-                                                  <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
-                                                  </svg>
-                                              06 07 20 38 36
-                                            </span>
-                                        </div>
-                                       
-                                  </div>
-                               </div>
-                          </div>
-                          
-                          <div class="offer-can  calender_width">
-                              <div class="h-auto  ">
-                                  <div class="header_newMission position-relative w-100">
-                                 
-                                      <div class="media mt-2">
-                                          <div class="avatar-upload-small">
-                                              <div class="avatar-preview-small">
-                                                  <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
-                                              </div>
-                                          </div>
-                                          <div class="media-body ">
-                                              <div class="profile_description_view_name-small">
-                                                  <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
-                                                      Joanna Prim
-                                                   
-                                                  </div>
-                                                  <div class="text-dark mb-0 fs-1 ">
-                                                      Cleaning
-                                                  </div>
-                                              </div>
-                                          </div>
+                                          Located in Lyon
+                                    
+                                          </span>
+                                          <span class="fs-10">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                                <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
+                                                </svg>
+                                            06 07 20 38 36
+                                          </span>
                                       </div>
-                                       <div class="box  mx-0">
-                                       
-                                            <span class=" fs-10">
-                                            <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
-                                        
-                                            Located in Lyon
-                                      
-                                            </span>
-                                            <span class="fs-10">
-                                              <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
-                                                  <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
-                                                  </svg>
-                                              06 07 20 38 36
-                                            </span>
+                                     
+                                </div>
+                             </div>
+                        </div>
+                        
+                        <div class="offer-can  calender_width">
+                            <div class="h-auto  ">
+                                <div class="header_newMission position-relative w-100">
+                               
+                                    <div class="media mt-2">
+                                        <div class="avatar-upload-small">
+                                            <div class="avatar-preview-small">
+                                                <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
+                                            </div>
                                         </div>
-                                       
-                                  </div>
-                               </div>
-                          </div>
-                          
-                          <div class="offer-can  calender_width">
-                              <div class="h-auto  ">
-                                  <div class="header_newMission position-relative w-100">
-                                 
-                                      <div class="media mt-2">
-                                          <div class="avatar-upload-small">
-                                              <div class="avatar-preview-small">
-                                                  <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
-                                              </div>
-                                          </div>
-                                          <div class="media-body ">
-                                              <div class="profile_description_view_name-small">
-                                                  <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
-                                                      Joanna Prim
-                                                   
-                                                  </div>
-                                                  <div class="text-dark mb-0 fs-1 ">
-                                                      Cleaning
-                                                  </div>
-                                              </div>
-                                          </div>
+                                        <div class="media-body ">
+                                            <div class="profile_description_view_name-small">
+                                                <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
+                                                    Joanna Prim
+                                                 
+                                                </div>
+                                                <div class="text-dark mb-0 fs-1 ">
+                                                    Cleaning
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="box  mx-0">
+                                     
+                                          <span class=" fs-10">
+                                          <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
+                                      
+                                          Located in Lyon
+                                    
+                                          </span>
+                                          <span class="fs-10">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                                <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
+                                                </svg>
+                                            06 07 20 38 36
+                                          </span>
                                       </div>
-                                       <div class="box  mx-0">
-                                       
-                                            <span class=" fs-10">
-                                            <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
-                                        
-                                            Located in Lyon
-                                      
-                                            </span>
-                                            <span class="fs-10">
-                                              <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
-                                                  <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
-                                                  </svg>
-                                              06 07 20 38 36
-                                            </span>
+                                     
+                                </div>
+                             </div>
+                        </div>
+                        
+                        <div class="offer-can  calender_width">
+                            <div class="h-auto  ">
+                                <div class="header_newMission position-relative w-100">
+                               
+                                    <div class="media mt-2">
+                                        <div class="avatar-upload-small">
+                                            <div class="avatar-preview-small">
+                                                <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
+                                            </div>
                                         </div>
-                                       
-                                  </div>
-                               </div>
-                          </div>
-                       </div>
-                  </div>
+                                        <div class="media-body ">
+                                            <div class="profile_description_view_name-small">
+                                                <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
+                                                    Joanna Prim
+                                                 
+                                                </div>
+                                                <div class="text-dark mb-0 fs-1 ">
+                                                    Cleaning
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="box  mx-0">
+                                     
+                                          <span class=" fs-10">
+                                          <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
+                                      
+                                          Located in Lyon
+                                    
+                                          </span>
+                                          <span class="fs-10">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                                <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
+                                                </svg>
+                                            06 07 20 38 36
+                                          </span>
+                                      </div>
+                                     
+                                </div>
+                             </div>
+                        </div>
+                        
+                        <div class="offer-can  calender_width">
+                            <div class="h-auto  ">
+                                <div class="header_newMission position-relative w-100">
+                               
+                                    <div class="media mt-2">
+                                        <div class="avatar-upload-small">
+                                            <div class="avatar-preview-small">
+                                                <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="media-body ">
+                                            <div class="profile_description_view_name-small">
+                                                <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
+                                                    Joanna Prim
+                                                 
+                                                </div>
+                                                <div class="text-dark mb-0 fs-1 ">
+                                                    Cleaning
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="box  mx-0">
+                                     
+                                          <span class=" fs-10">
+                                          <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
+                                      
+                                          Located in Lyon
+                                    
+                                          </span>
+                                          <span class="fs-10">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                                <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
+                                                </svg>
+                                            06 07 20 38 36
+                                          </span>
+                                      </div>
+                                     
+                                </div>
+                             </div>
+                        </div>
+                        
+                        <div class="offer-can  calender_width">
+                            <div class="h-auto  ">
+                                <div class="header_newMission position-relative w-100">
+                               
+                                    <div class="media mt-2">
+                                        <div class="avatar-upload-small">
+                                            <div class="avatar-preview-small">
+                                                <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="media-body ">
+                                            <div class="profile_description_view_name-small">
+                                                <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
+                                                    Joanna Prim
+                                                 
+                                                </div>
+                                                <div class="text-dark mb-0 fs-1 ">
+                                                    Cleaning
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="box  mx-0">
+                                     
+                                          <span class=" fs-10">
+                                          <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
+                                      
+                                          Located in Lyon
+                                    
+                                          </span>
+                                          <span class="fs-10">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                                <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
+                                                </svg>
+                                            06 07 20 38 36
+                                          </span>
+                                      </div>
+                                     
+                                </div>
+                             </div>
+                        </div>
+                        
+                        <div class="offer-can  calender_width">
+                            <div class="h-auto  ">
+                                <div class="header_newMission position-relative w-100">
+                               
+                                    <div class="media mt-2">
+                                        <div class="avatar-upload-small">
+                                            <div class="avatar-preview-small">
+                                                <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="media-body ">
+                                            <div class="profile_description_view_name-small">
+                                                <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
+                                                    Joanna Prim
+                                                 
+                                                </div>
+                                                <div class="text-dark mb-0 fs-1 ">
+                                                    Cleaning
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="box  mx-0">
+                                     
+                                          <span class=" fs-10">
+                                          <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
+                                      
+                                          Located in Lyon
+                                    
+                                          </span>
+                                          <span class="fs-10">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                                <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
+                                                </svg>
+                                            06 07 20 38 36
+                                          </span>
+                                      </div>
+                                     
+                                </div>
+                             </div>
+                        </div>
+                        
+                        <div class="offer-can  calender_width">
+                            <div class="h-auto  ">
+                                <div class="header_newMission position-relative w-100">
+                               
+                                    <div class="media mt-2">
+                                        <div class="avatar-upload-small">
+                                            <div class="avatar-preview-small">
+                                                <img src="Web_assets/dashboard/Pixel-40.png" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="media-body ">
+                                            <div class="profile_description_view_name-small">
+                                                <div class="text-dark mb-1 mb-5 fs-10 font-weight-600 ">
+                                                    Joanna Prim
+                                                 
+                                                </div>
+                                                <div class="text-dark mb-0 fs-1 ">
+                                                    Cleaning
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="box  mx-0">
+                                     
+                                          <span class=" fs-10">
+                                          <img src="Web_assets/dashboard/crosshairs-gps.svg" class="mr-2">
+                                      
+                                          Located in Lyon
+                                    
+                                          </span>
+                                          <span class="fs-10">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                                <path d="M10.7715 7.94556C10.1715 7.94556 9.52148 7.84556 8.97148 7.64556C8.92148 7.64556 8.87148 7.64556 8.82148 7.64556C8.67148 7.64556 8.57148 7.69556 8.47148 7.79556L7.37148 8.89556C5.97148 8.14556 4.77148 6.99556 4.07148 5.59556L5.17148 4.49556C5.32148 4.34556 5.37148 4.14556 5.27148 3.99556C5.12148 3.44556 5.02148 2.79556 5.02148 2.19556C5.02148 1.94556 4.77148 1.69556 4.52148 1.69556H2.77148C2.52148 1.69556 2.27148 1.94556 2.27148 2.19556C2.27148 6.89556 6.07148 10.6956 10.7715 10.6956C11.0215 10.6956 11.2715 10.4456 11.2715 10.1956V8.44556C11.2715 8.19556 11.0215 7.94556 10.7715 7.94556ZM3.27148 2.69556H4.02148C4.07148 3.14556 4.17148 3.59556 4.27148 3.99556L3.67148 4.59556C3.47148 3.99556 3.32148 3.34556 3.27148 2.69556ZM10.2715 9.69556C9.62148 9.64556 8.97148 9.49556 8.37148 9.29556L8.97148 8.69556C9.37148 8.79556 9.82148 8.89556 10.2715 8.89556V9.69556Z" fill="#1F2E4C"/>
+                                                </svg>
+                                            06 07 20 38 36
+                                          </span>
+                                      </div>
+                                     
+                                </div>
+                             </div>
+                        </div>
+                     </div>
+                </div>
 
-                 </div>
-              </div>              </div>
+               </div>
+            </div>              </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true">&lt;</span>
+        <span class="sr-only">&lt;</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true">&gt;</span>
+        <span class="sr-only">&gt;</span>
+      </a>
+    </div>
+  </div>
+    </div>
+   
+   
+   
+    <footer>
+      <div class="footer_container">
+        <div class="footer_colum">
+          <div class="footer_heder">Menu</div>
+          <div class="footer_text">
+            <ul class="list-unstyled footer_list">
+              <li>My quotes</li>
+              <li>List of craftsmen</li>
+              <li>Profile</li>
+              <li>Messages</li>
+            </ul>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true">&lt;</span>
-          <span class="sr-only">&lt;</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true">&gt;</span>
-          <span class="sr-only">&gt;</span>
-        </a>
-      </div>
-    </div>
-      </div>
-     
-     
-     
-      <footer>
-        <div class="footer_container">
-          <div class="footer_colum">
-            <div class="footer_heder">Menu</div>
-            <div class="footer_text">
-              <ul class="list-unstyled footer_list">
-                <li>My quotes</li>
-                <li>List of craftsmen</li>
-                <li>Profile</li>
-                <li>Messages</li>
-              </ul>
-            </div>
-          </div>
-          <div class="footer_colum">
-            <div class="footer_heder">Help</div>
-            <div class="footer_text">
-              <ul class="list-unstyled footer_list">
-                <li>FAQ</li>
-                <li>Support</li>
-              </ul>
-            </div>
-          </div>
-          <div class="footer_colum">
-            <div class="footer_heder">Contact</div>
-            <div class="footer_text">
-              <ul class="list-unstyled footer_list">
-                <li>15 rue de la Joie 29384 Aix en Joie</li>
-
-                <li>+33 4 89 37 29 98</li>
-              </ul>
-            </div>
-            <div style="
-                justify-content: flex-start;
-                align-items: flex-start;
-                gap: 22px;
-                display: inline-flex;
-              ">
-             
-            </div>
+        <div class="footer_colum">
+          <div class="footer_heder">Help</div>
+          <div class="footer_text">
+            <ul class="list-unstyled footer_list">
+              <li>FAQ</li>
+              <li>Support</li>
+            </ul>
           </div>
         </div>
-      </footer>
-    </div>
-    <!-- jQuery -->
-    <script src="plugins/jquery/jquery.min.js"></script>
-    <!-- Bootstrap 4 -->
-    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- AdminLTE App -->
-    <script src="dist/js/adminlte.min.js"></script>
-  
+        <div class="footer_colum">
+          <div class="footer_heder">Contact</div>
+          <div class="footer_text">
+            <ul class="list-unstyled footer_list">
+              <li>15 rue de la Joie 29384 Aix en Joie</li>
+
+              <li>+33 4 89 37 29 98</li>
+            </ul>
+          </div>
+          <div style="
+              justify-content: flex-start;
+              align-items: flex-start;
+              gap: 22px;
+              display: inline-flex;
+            ">
+           
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- jQuery -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <!-- Bootstrap 4 -->
+  <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- AdminLTE App -->
+  <script src="dist/js/adminlte.min.js"></script>
+
 
 </body></html>
