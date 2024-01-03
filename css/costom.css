@@ -411,6 +411,7 @@ box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
   font-size: 11px;
   border-radius: 40px !important;
   border: none;
+  padding: 0px 16px;
   border: 1px solid #565656 !important;
 }
 textarea.form-control {
@@ -534,7 +535,7 @@ textarea.form-control {
 .password-eye {
   position: absolute;
   right: 12px;
-  top: 34px;
+  top: 35px;
   font-size: 14px;
   color: #1572cd;
 }
@@ -1429,14 +1430,6 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
 }
-
-
-
-
-
-
-
-
 .hide {
   display: none;
 }
@@ -1645,6 +1638,7 @@ font-weight: 700;
  .carftman_img {
   height: 184px !important;
   object-fit: cover;
+  border-radius: 16px 16px 0px 0px;
 }
 .avatar-upload-small .avatar-preview-big {
   width: 80px;
@@ -1723,12 +1717,13 @@ font-weight: 700;
 }
 .create_quotetion_radio_text {
   width: 50%;
-  margin-top: 2px !important;
+
  
 }
 .create_quotetion_radio_btn {
   width: 50%;
   text-align: right;
+  margin-top:2px;
 }
 .radio-container {
   display: block;

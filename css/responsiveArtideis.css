@@ -1,12 +1,27 @@
 @media screen and (min-width: 320px) and (max-width: 575px) {
+    /* create qoute start */
+    .create_quotetion_radio_text {
+        width: 70%;
+    }
+    .create_quotetion_radio_btn {
+        width: 30%;
+        margin-top:0px;
+      
+    }
   .digifen_inner_box {
     width: 100%;
     margin-top: -40px;
   }
+  /* .Sign_up_choose_pepole{
+    width:100%;
+  } */
+.digifen-top-header {
+font-size: 20px;
+}
   .digifen-conatiner-dashboard {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90% !important ;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
   .login-box {
     width: 100%;
@@ -15,9 +30,7 @@
     padding: 2px 15px !important;
     font-size: 9px !important;
   }
-  .Sign_up_choose_pepole {
-    width: 100% !important;
-  }
+ 
   .digifen_inner_box {
     width: 100%;
   }
@@ -34,8 +47,9 @@
     height:30px;
   }
   .sign_up_choose_box {
-    flex-wrap: wrap;
+    flex-wrap: nowrap; 
     height: auto;
+    width: 100%;
 }
   .profile_description_view_name-small {
     margin: -6px 0px 0px 8px !important;
@@ -45,9 +59,9 @@
     background-color: var(--white_black);
   }
 
-  .Sign_up_choose_pepole {
+  /* .Sign_up_choose_pepole {
     width: auto;
-  }
+  } */
 
   .dd-menu {
     right: 0px;
@@ -79,9 +93,9 @@
     top: -7px;
   }
 
-  .Sign_up_choose_pepole {
+  /* .Sign_up_choose_pepole {
     width: auto;
-  }
+  } */
 
   .dd-menu {
     right: 0px;
@@ -98,7 +112,7 @@
   }
 
   .tab_bar {
-    margin: 0px 15px 0px 0px;
+    margin: 0px -1px 0px 0px;
 
     font-size: 13px;
   }
@@ -133,6 +147,36 @@
     text-align: left;
   }
   /* mobile responsive end */
+  /* otp start*/
+  .login-page {
+     height:100% !important; 
+  }
+  .login-box {
+    width:90% !important;
+    padding: 27px 0px;
+  }
+  .heart_icons img {
+    margin: 0px 0px 8px 7px;
+}
+.owl-next {
+
+        right: -10px;
+        font-size: 35px !important;
+   
+}
+.owl-prev {
+        left: -27px;
+        font-size: 35px !important;  
+}
+.footer_text {
+    margin-bottom: 25px;
+ }
+ .bussiness_registration {
+    width:100%;
+ }
+ .profile_view{
+    margin-bottom: 10px;
+ }
 }
 @media screen and (min-width: 575px) and (max-width: 767px) {
   .dashbaord_topmenu {
@@ -143,10 +187,7 @@
     top: -7px;
   }
 
-  .Sign_up_choose_pepole {
-    width: auto;
-  }
-
+ 
   .dd-menu {
     right: 0px;
   }
@@ -190,7 +231,7 @@
     text-align: left;
   }
   .digifen-conatiner-dashboard {
-    width: 100%;
+    width: 90% !important;
   }
   .footer_container {
     width: 100%;
@@ -206,6 +247,21 @@
   .footer_colum {
     width:178px;
   }
+  /* otp start */
+  .heart_icons img {
+    margin: 0px 0px 8px 7px;
+}
+.owl-next {
+
+    right: -10px;
+    font-size: 35px !important;
+
+}
+.owl-prev {
+    left: -27px;
+    font-size: 35px !important;  
+}
+  /* otp end */
 }
 @media screen and (min-width:768px) and (max-width: 1023px) {
   /* .Sign_up_choose_pepole {
@@ -292,12 +348,8 @@
 .sidemenu {
     padding: 0px 4px 11px;
  }
- .btn-purple {
-  
-    padding: 4.5px 10px;
-    font-size: 12px;
-
-  
+ .heart_icons img {
+    margin: 0px 0px 8px 7px;
 }
 }
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
@@ -347,6 +399,9 @@
   .filter_section {
     padding: 10px 10px !important;
   }
+  .heart_icons img {
+    margin: 0px 0px 8px 7px;
+}
 }
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
   /* .Sign_up_choose_pepole {
@@ -387,7 +442,7 @@
   }
   .profile_description_view_name-small {
     margin: -5px 0px 0px 9px;
-    line-height: 20px;
+    line-height: 15px;
   }
   .filter_section {
     top: -7px;
@@ -417,10 +472,7 @@
   .sign_in_bottom_text {
     font-size: 13px;
   }
-  .form-control {
-    height: 40px !important;
-    font-size: 13px !important;
-  }
+
   .filter_section {
     top: -24px;
   }
@@ -459,7 +511,7 @@
     height: 50px !important;
   }
   .profile_description_view_name-small {
-    line-height: 18px !important;
+    line-height: 15px !important;
   }
   .box {
     font-size: 12px !important;
@@ -482,13 +534,16 @@
     padding: 5px 15px 5px !important;
   }
   .plus_input {
-    height: 30px !important;
-    width: 30px !important;
+    height: 25px !important;
+    width: 25px !important;
+    padding: 6px 0px 0px 6px;
+  }
+  .form-control {
+    font-size: 12px;
   }
   .chip {
-    margin: 14px 7px 0px 0px;
-    padding: 5px 17px 5px 11px;
-    font-size: 13px;
+  
+    font-size: 12px;
   }
   .close_ss {
     top: 5px !important;
@@ -515,11 +570,42 @@
     width: 70%;
    
  }
+ .discussions .discussion .name {
+
+    font-size: 12px;
+}
+.message {
+  
+    font-size: 11px !important;
+}
+.desc-contact {
+    width: 72%;
+}
+
+.name-m {
+    font-size: 15px !important;
+}
+.user-img-m {
+    width: 35px !important;
+    height: 35px !important;
+
+}
+.icon-m img{
+    width:25px;
+    height:25px;
+}
 }
 @media screen and (min-width: 1601px) and (max-width: 1920px) {
   .form-group .label {
     font-size: 16px !important;
   }
+  .password-eye {
+   
+    right: 19px !important;
+    top: 42px !important;
+    font-size: 17px !important;
+   
+}
   .digifen-top-header {
     font-size: 23px !important;
   }
@@ -530,13 +616,17 @@
     font-size: 15px;
   }
   .form-control {
-    height: 45px !important;
-    font-size: 15px !important;
-    padding: 13px 16px;
+    height: 40px !important;
+    font-size: 16px !important;
+    padding: 10px 16px;
   }
   .small_word {
-    font-size: 13px !important;
+    font-size: 14px !important;
   }
+  .digifen_small_font{
+       font-size:14px;
+  }
+  
   .Sign_up_choose_pepole {
     font-size: 15px !important;
   }
@@ -564,7 +654,7 @@
     font-size: 14px !important ;
   }
   .search_btn {
-    margin-top: 2px;
+  
     padding: 8px 28px 6px !important;
     height: 40px;
   }
@@ -579,7 +669,7 @@
     height: 60px !important;
   }
   .profile_description_view_name-small {
-    line-height: 23px !important;
+    line-height: 17px !important;
     font-size: 14px;
   }
   .box {
@@ -710,55 +800,126 @@
     font-size: 16px;
   }
   .digifen-conatiner-dashboard {
-    width: 80%;
+    width: 60%;
    }
    .digifen_inner_box{
     width:100%;
    }
+   .border-radio .form-control {
+    padding: 7px 20px;
+    font-size: 19px;
+}
+.verifyed_section  img ,.verifyed_section-filter img{
+    width: 17px;
+    height: 17px;
+    margin-top: -4px;
+}
+.verifyed_section ,.verifyed_section-filter {
+    font-size: 14px;
+}
+.user_name_container p {
+    font-size: 17px;
+
+}
+.user_name_container span {
+    font-size: 15px;
+}
+.caftman_title {
+    font-size: 16px;
+}
+.btn-light-blue {
+    font-size: 16px;
+}
+.btn-light-blue i{
+    font-size: 11px;
+    
+}
+.star_box img {
+    display: inline-block !important;
+    width: 27px!important;
+}
+.search_btn i{
+font-size:15px;
+}
+.inc-des-box {
+    font-size: 15px;
+    margin: 0px 4px;
+}
+.discussions .discussion .name {
+
+    font-size: 15px;
+}
+
+.message {
+  
+    font-size: 14px !important;
+}
+.desc-contact {
+    width: 72%;
+}
+.chat .messages-chat .text {
+    font-size: 13px;
+}
+.name-m {
+    font-size: 15px !important;
+}
+.user-img-m {
+    width: 35px !important;
+    height: 35px !important;
+
+}
+.icon-m img{
+    width:25px;
+    height:25px;
+}
 }
 @media screen and (min-width: 1921px) and (max-width: 2300px) {
   .form-group {
     margin-bottom: 32px !important;
   }
   .form-group .label {
-    font-size: 16px !important;
+    font-size: 20px !important;
   }
   .digifen-top-header {
     font-size: 25px !important;
   }
   .sign_in_bottom_text {
-    font-size: 16px;
+    font-size: 20px;
   }
   .form-control {
-    height: 42px !important;
-    font-size: 16px !important;
-    padding: 5px 26px 6px;
+    height: 45px !important;
+    font-size: 18px !important;
+ 
   }
+  .create_quotetion_radio_btn {
+   
+    margin-top: 6px;
+}
   .small_word {
-    font-size: 14px !important;
+    font-size: 18px !important;
   }
   .Sign_up_choose_pepole {
-    font-size: 16px !important;
+    font-size: 20px !important;
   }
   .Sign_up_choose_pepole1 {
     width: auto !important;
     border-radius: 30px;
-    font-size: 16px !important;
+    font-size: 20px !important;
     padding: 9px 31px !important;
   }
   .btn-purple {
     border-radius: 30px;
     padding: 8px 23px !important;
-    font-size: 16px !important;
+    font-size: 20px !important;
   }
   .password-eye {
-    position: absolute;
-    right: 16px;
-    top: 43px;
-    font-size: 16px;
+ 
+    right: 20px !important;
+    top: 42px !important;
+    font-size: 17px !important;
   }
   .fs-11 {
-    font-size: 15px !important;
+    font-size: 17px !important;
   }
   /* home page start */
   .profile_header {
@@ -775,8 +936,9 @@
   .search_btn {
     margin-top: 2px;
     padding: 8px 28px 6px !important;
-    height: 40px;
+    height: 45px;
   }
+
   .digifen_inner_box {
     width: 95%;
   }
@@ -788,6 +950,9 @@
     line-height: 25px !important;
     font-size: 15px;
   }
+  .border-radio .form-control {
+    padding: 7px 20px;
+}
   .box {
     font-size: 15px !important;
   }
@@ -852,9 +1017,9 @@
     font-size: 14px;
   }
   .chip {
-    margin: 14px 7px 0px 0px;
+    margin: 14px 7px 5px 0px;
     padding: 5px 17px 5px 11px;
-    font-size: 14px;
+    font-size: 16px;
   }
   .close_ss {
     top: 5px !important;
@@ -894,7 +1059,7 @@
     width:200px;
  }
  .digifen-conatiner-dashboard {
-    width: 60%;
+    width: 60% !important;
   }
   body {
     font-size: 16px;
@@ -924,13 +1089,111 @@
  .pages{
     width:260px;
  }
+ .otp-field input {
+    height: 55px;
+    width: 55px;
+    font-size: 18px;
+}
+.social_btn {
+   
+    width: 50px !important;
+    height: 50px !important;
+}
+.verifyed_section  img ,.verifyed_section-filter img{
+    width: 17px;
+    height: 17px;
+    margin-top: -4px;
+}
+.verifyed_section ,.verifyed_section-filter {
+    font-size: 15px;
+}
+.user_name_container p {
+    font-size: 17px;
+
+}
+.user_name_container span {
+    font-size: 15px;
+}
+.caftman_title {
+    font-size: 16px;
+}
+.btn-light-blue {
+    font-size: 16px;
+}
+.btn-light-blue i{
+    font-size: 11px;
+    
+}
+.star_box img {
+    display: inline-block !important;
+    width: 27px!important;
+}
+.search_btn i{
+font-size:16px;
+}
+.inc-des-box {
+    font-size: 17px;
+    margin: 0px 4px;
+}
+.star_box img {
+   
+    width: 28px !important;
+}
+.inc-des-box {
+    font-size: 18px;
+  
+}
+.fs-14 {
+    font-size: 18px !important;
+}
+.list-carftment_container-outer {
+    font-size: 16px;
+    margin-bottom: 19px;
+    padding: 1px 0px 0px;
+}
+.fs-12 {
+    font-size: 17px;
+}
+.help_image img{
+    width:23px;
+}
+.discussions .discussion .name {
+
+    font-size: 16px;
+}
+.message {
+  
+    font-size: 15px !important;
+}
+.desc-contact {
+    width: 72%;
+}
+.chat .messages-chat .text {
+    font-size: 14px;
+}
+.name-m {
+    font-size: 16px !important;
+}
+.user-img-m {
+    width: 35px !important;
+    height: 35px !important;
+
+}
+.icon-m img{
+    width:25px;
+    height:25px;
+}
+.changePassword {
+    font-size: 15px;
+}
 }
 @media screen and (min-width: 2301px) and (max-width: 2560px) {
   .form-group {
     margin-bottom: 32px !important;
   }
   .form-group .label {
-    font-size: 17px !important;
+  
+    font-size: 20px !important;
   }
   .btn-dashboard {
     width: 40% !important;
@@ -943,14 +1206,18 @@
   }
   .form-control {
     height: 42px !important;
-    font-size: 17px !important;
-    padding: 5px 26px 6px;
+    font-size: 20px !important;
+  
   }
+  .create_quotetion_radio_btn {
+  
+    margin-top: 14px;
+}
   .small_word {
     font-size: 18px !important;
   }
   .Sign_up_choose_pepole {
-    font-size: 18px !important;
+    font-size: 20px !important;
   }
   .Sign_up_choose_pepole1 {
     width: auto !important;
@@ -964,19 +1231,29 @@
     font-size: 19px !important;
   }
   .login-box {
-    width: 25% !important;
-    display: block !important;
+    
+    justify-content: center;
     height: 100%;
   }
+  .otp-field input {
+    height: 55px;
+    width: 55px;
+    font-size: 18px;
+}
   .password-eye {
-    top: 44px !important;
+    top: 50px !important;
     font-size: 19px !important;
   }
   /* home page start */
   .profile_header {
-    font-size: 18px !important;
+    font-size: 22px !important;
     font-weight: 600 !important;
   }
+  .social_btn {
+   
+    width: 50px !important;
+    height: 50px !important;
+}
   .new_inner_box {
     border-radius: 7px !important;
   }
@@ -985,8 +1262,9 @@
   .search_btn {
     margin-top: 2px;
     padding: 8px 28px 6px !important;
-    height: 40px;
+    height: 45px;
   }
+  
   .digifen_inner_box {
     width: 100%;
   }
@@ -1070,7 +1348,7 @@
   .chip {
     margin: 14px 7px 0px 0px;
     padding: 5px 17px 5px 11px;
-    font-size: 14px;
+    font-size: 16px;
   }
   .close_ss {
     top: 5px !important;
@@ -1106,7 +1384,7 @@
     font-size: 16px !important;
   }
   .digifen-conatiner-dashboard {
-    width: 60%;
+    width: 60% !important;
   }
   body {
     font-size: 16px;
@@ -1136,4 +1414,96 @@
  .pages{
     width:260px;
  }
+ .digifen_small_font {
+  
+    font-size: 16px ;
+
+}
+.form-control {
+    height: 50px !important;
+    font-size: 19px;
+} 
+.verifyed_section  img ,.verifyed_section-filter img{
+    width: 17px;
+    height: 17px;
+    margin-top: -4px;
+}
+.verifyed_section ,.verifyed_section-filter {
+    font-size: 16px;
+}
+.user_name_container p {
+    font-size: 17px;
+
+}
+.user_name_container span {
+    font-size: 15px;
+}
+.caftman_title {
+    font-size: 16px;
+}
+.btn-light-blue {
+    font-size: 16px;
+}
+.btn-light-blue i{
+    font-size: 11px;
+    
+}
+.verifyed_section-filter {
+    padding: 5px 15px;
+    font-size: 16px;
+   }
+   .star_box img {
+   
+    width: 28px !important;
+}
+.inc-des-box {
+    font-size: 18px;
+  
+}
+.fs-14 {
+    font-size: 18px !important;
+}
+.list-carftment_container-outer {
+    font-size: 16px;
+    margin-bottom: 19px;
+    padding: 1px 0px 0px;
+}
+.fs-12 {
+    font-size: 17px;
+}
+.help_image img{
+    width:23px;
+}
+.discussions .discussion .name {
+
+    font-size: 16px;
+}
+.message {
+  
+    font-size: 15px !important;
+}
+.desc-contact {
+    width: 72%;
+}
+.chat .messages-chat .text {
+    font-size: 16px;
+}
+.name-m {
+    font-size: 16px !important;
+}
+.user-img-m {
+    width: 35px !important;
+    height: 35px !important;
+
+}
+.icon-m img{
+    width:25px;
+    height:25px;
+}
+.changePassword {
+    font-size: 16px;
+}
+.box img{
+    width:17px;
+}
 }
