@@ -2,6 +2,10 @@
   .mobile_view {
       padding: 15px;
     }
+    footer {
+      padding: 63px 10px 30px 50px;
+  
+    }
     .digifen_find_job_left {
       width: 460px;
       padding-top: 60px !important;

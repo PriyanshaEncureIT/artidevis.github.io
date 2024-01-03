@@ -206,6 +206,7 @@ input:-DM Sansnal-autofill-selected {
     width: 100%;
     white-space: nowrap;
     font-size: 13px;
+    padding: 0px 3px 0px;
 }
 
 .brand-link {
@@ -2041,4 +2042,7 @@ color: var(--color-darkslategray) !important;
     z-index: 99;
     right: 6px;
     top: 6px;
+}
+.menu_bar{
+    display:none;
 }

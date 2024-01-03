@@ -1958,3 +1958,7 @@ font-weight: 700;
 .owl-prev:hover{
  background:transparent !important;
 }
+.logo_image{
+  display: block;
+  text-align: center;
+}
