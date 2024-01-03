@@ -2004,6 +2004,7 @@ white-space: nowrap;
     overflow: hidden;
     border-radius: 6px;
     padding: 5px;
+    overflow: auto;
 }
 .calender_width
 {

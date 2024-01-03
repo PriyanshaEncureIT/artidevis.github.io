@@ -177,8 +177,43 @@ font-size: 20px;
  .profile_view{
     margin-bottom: 10px;
  }
+ .management_image {
+    height: 100px;
+}
+ .management_image img {
+    height: 100%;
+}
+.calender_width {
+    width: 100%;
+}
+.alphabet .active {
+    font-size: 12px;
+    padding: 5px 0px 0px;
+    width: 25px;
+    height:25px;
+}
+.calender_user {
+    width: 89%;
+}
 }
 @media screen and (min-width: 575px) and (max-width: 767px) {
+    .calender_width {
+        width: 100%;
+    }
+    .alphabet .active {
+        font-size: 12px;
+        padding: 5px 0px 0px;
+        width: 25px;
+        height:25px;
+    }
+    .calender_user {
+        width: 85%;
+    }
+    
+
+.alphabet {
+    width:11%;
+}
   .dashbaord_topmenu {
     display: block;
     background-color: var(--white_black);
@@ -187,7 +222,12 @@ font-size: 20px;
     top: -7px;
   }
 
- 
+  .management_image {
+    height: 100px;
+}
+ .management_image img {
+    height: 100%;
+}
   .dd-menu {
     right: 0px;
   }
@@ -1325,12 +1365,22 @@ font-size:16px;
     width: 3% !important;
   }
   .calender_user {
-    width: 97% !important;
+    width: 90% !important;
   }
   .alphabet span {
-    font-size: 16px;
-    margin: 0px auto;
-  }
+    font-size: 18px;
+    margin: 7px auto;
+}
+.alphabet .active {
+    font-size: 18px;
+ 
+    padding: 14px 0px 0px;
+    width: 100%;
+     margin-left:auto !important; 
+  
+    height: 44px;
+   
+}
   .box svg {
     height: 18px;
     width: 18px;
@@ -1338,6 +1388,9 @@ font-size:16px;
   .pl-25 {
     padding-left: 45px !important;
   }
+  .alphabet {
+    width: 8% !important;
+}
   .input_icons {
     top: 13px;
     left: 19px;
@@ -1505,5 +1558,8 @@ font-size:16px;
 }
 .box img{
     width:17px;
+}
+.fs-10 {
+    font-size: 18px !important;
 }
 }
