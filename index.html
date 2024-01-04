@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/costom.css">
   <link rel="stylesheet" href="css/dashboard.css">
    <link rel="stylesheet" href="css/responsive.css">
-  <link rel="stylesheet" href="css/responsiveArtideis.css">
+  <link rel="stylesheet" href="css/responsiveArtideis.css"> 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&amp;display=swap" rel="stylesheet">
@@ -32,8 +32,8 @@
         <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto top_menu align-items-center">
           <li class="nav-item dropdown">
             <div class="sign_up_choose_box" style="flex-wrap: nowrap !important">
-              <a class="btn-blue-home btn-light" href="signIn.html">Sign In <span> </span></a>
-              <a href="signup.html" class="btn-blue-home btn-purple">Sign Up </a>
+              <a class="btn-blue-home btn-light mobile-view-sign-in" href="signIn.html">Sign In <span> </span></a>
+              <a href="signup.html" class="btn-blue-home btn-purple mobile-view-sign-in">Sign Up </a>
             </div>
           </li>
           <li class="nav-item">
@@ -95,34 +95,41 @@
                     </div>
                   </div>
                   <div class="col-sm-12 col-md-12 col-lg-6">
-                    <div class="form-group">
+                  
                       <label class="label text-white">Location </label>
                       <div class="row">
                         <div class="col-lg-6">
+                          <div class="form-group">
                           <input type="text" class="form-control mb-0" id="" placeholder="Enter">
+                          </div>
                         </div>
                         <div class="col-lg-6">
+                          <div class="form-group">
                           <select class="form-control mb-0">
                             <option>Select from the list</option>
                           </select>
+                          </div>
+
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-sm-12 col-md-12 col-lg-6">
-                    <div class="form-group">
-                      <label class="label text-white">Name </label>
-                      <input type="text" class="form-control" id="" placeholder="Enter">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                      <div class="form-group">
+                        <label class="label text-white">Name </label>
+                        <input type="text" class="form-control" id="" placeholder="Enter">
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                      <div class="form-group">
+                        <label class="label text-white">Type de bâtiment </label>
+                        <select class="form-control">
+                          <option>Select from the list</option>
+                        </select>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-sm-12 col-md-12 col-lg-6">
-                    <div class="form-group">
-                      <label class="label text-white">Type de bâtiment </label>
-                      <select class="form-control">
-                        <option>Select from the list</option>
-                      </select>
-                    </div>
-                  </div>
+                  
+                 
                   <div class="col-sm-12 text-center margin-top-40">
                     <a class="btn-blue-home btn-light d-block mx-auto" href="#">Research</a>
                   </div>
@@ -555,7 +562,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="row mx-0 mx-0 mx-0">
-            <div class="col-sm-6 d-flex align-content-">
+            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-content-">
               <div class=" home_page home_page_text_conatiner">
                 <div class="third_section_title mb-30 mt-5">
                 Find quotes
@@ -566,12 +573,12 @@
                 </p>
                 <p>
                   Filter according to your area of activity or by location to find requests for quotes that match your area of activity.</p>
-                  <button class="btn-blue btn-purple" onclick="window.location='signup_form_individual.html'">
+                  <button class="btn-blue btn-purple mb-5" onclick="window.location='signup_form_individual.html'">
                       Create my account
                   </button>
               </div>
             </div>
-            <div class="col-sm-6 d-flex justify-content-start">
+            <div class="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-start">
             <div class="find_input home_page">
               <div class="row">
                   <div class="col-sm-12 col-md-12 col-lg-12">
@@ -595,12 +602,17 @@
                         <label class="label">Location </label>
                         <div class="row">
                           <div class="col-lg-6">
+                            <div class="form-group">
                             <input type="text" class="form-control mb-0" id="" placeholder="Enter">
+                            </div>
                           </div>
                           <div class="col-lg-6">
+                            <div class="form-group">
                             <select class="form-control mb-0">
                               <option>Select from the list</option>
                             </select>
+                            </div>
+
                           </div>
                         </div>
                       </div>
@@ -617,7 +629,7 @@
         </div>
         <div class="carousel-item">
           <div class="row mx-0 mx-0 mx-0">
-              <div class="col-sm-6 d-flex align-content-">
+              <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-content-">
                 <div class=" home_page home_page_text_conatiner">
                   <div class="third_section_title mb-30 mt-5">
                       Showcase your achievements
@@ -627,12 +639,12 @@
 
                   </p>
                   
-                    <button class="btn-blue btn-purple" onclick="window.location='signup_form_individual.html'">
+                    <button class="btn-blue btn-purple mb-5" onclick="window.location='signup_form_individual.html'">
                         Create my account
                     </button>
                 </div>
               </div>
-              <div class="col-sm-6 d-flex justify-content-start">
+              <div class="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-start">
                
                   <div class="carftmen_review_background">
                     <img class="d-block w-100 border-radius-15px-topleft-topRight" src="Web_assets/dashboard/review_1.png" alt="First slide">
@@ -679,7 +691,7 @@
         </div>
         <div class="carousel-item">
           <div class="row mx-0 mx-0 mx-0">
-              <div class="col-sm-4 d-flex align-content-">
+              <div class="col-sm-12 col-md-12 col-lg-4 d-flex align-content-">
                 <div class=" home_page home_page_text_conatiner">
                   <div class="third_section_title mb-30 mt-5">
                     Track your projects
@@ -690,12 +702,12 @@
 
                   </p>
                   
-                    <button class="btn-blue btn-purple" onclick="window.location='signup_form_individual.html'">
+                    <button class="btn-blue btn-purple mb-5" onclick="window.location='signup_form_individual.html'">
                         Create my account
                     </button>
                 </div>
               </div>
-              <div class="col-sm-8 d-flex justify-content-center pt-5">
+              <div class="col-sm-12 col-md-12 col-lg-8 d-flex justify-content-center pt-5">
                   <div class="">
                    <div class="row">
                       <div class="col-sm-6">
@@ -835,8 +847,8 @@
             </div>
         </div>
         <div class="carousel-item">
-          <div class="row mx-0 mx-0 mx-0">
-              <div class="col-sm-5 d-flex align-content-">
+           <div class="row mx-0 mx-0 mx-0">
+              <div class="col-sm-12 col-md-12 col-lg-5 d-flex align-content-">
                 <div class=" home_page home_page_text_conatiner">
                   <div class="third_section_title mb-30 mt-5">
                     Keep in touch
@@ -846,7 +858,7 @@
 
                   </p>
                   
-                    <button class="btn-blue btn-purple" onclick="window.location='signup_form_individual.html'">
+                    <button class="btn-blue btn-purple mb-5" onclick="window.location='signup_form_individual.html'">
                         Create my account
                     </button>
                 </div>
@@ -1309,7 +1321,7 @@
                 </div>
 
                </div>
-            </div>              </div>
+          </div>              </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

@@ -3,6 +3,9 @@
     .create_quotetion_radio_text {
         width: 70%;
     }
+    .dashboard_subscription{
+        width:100%;
+        }
     .create_quotetion_radio_btn {
         width: 30%;
         margin-top:0px;
@@ -197,6 +200,9 @@ font-size: 20px;
 }
 }
 @media screen and (min-width: 575px) and (max-width: 767px) {
+    .dashboard_subscription{
+        width:100%;
+        }
     .calender_width {
         width: 100%;
     }
@@ -210,7 +216,9 @@ font-size: 20px;
         width: 85%;
     }
     
-
+    .dashboard_subscription{
+        width:100%;
+        }
 .alphabet {
     width:11%;
 }
@@ -308,6 +316,9 @@ font-size: 20px;
         width: 100% !important;
     } */
      /* mobile responsive start */
+     .dashboard_subscription{
+        width:100%;
+        }
   .menu_bar {
     display: block;
     position: absolute !important;
@@ -912,6 +923,15 @@ font-size:15px;
     width:25px;
     height:25px;
 }
+.nav-item {
+   
+    font-size: 16px;
+   
+}
+.nav-item svg{
+width:18px;
+height:18px;
+}
 }
 @media screen and (min-width: 1921px) and (max-width: 2300px) {
   .form-group {
@@ -1226,6 +1246,15 @@ font-size:16px;
 .changePassword {
     font-size: 15px;
 }
+.nav-item {
+   
+    font-size: 20px;
+   
+}
+.nav-item svg{
+width:23px;
+height:23px;
+}
 }
 @media screen and (min-width: 2301px) and (max-width: 2560px) {
   .form-group {
@@ -1235,8 +1264,17 @@ font-size:16px;
   
     font-size: 20px !important;
   }
+  .nav-item {
+   
+    font-size: 20px;
+   
+}
+.nav-item svg{
+width:23px;
+height:23px;
+}
   .btn-dashboard {
-    width: 40% !important;
+    width: auto !important;
   }
   .digifen-top-header {
     font-size: 30px !important;
