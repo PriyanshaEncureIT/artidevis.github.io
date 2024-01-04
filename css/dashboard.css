@@ -2095,8 +2095,8 @@ color: var(--color-darkslategray) !important;
   .sidepanel .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
-    font-size: 36px;
+    right: 0px;
+    font-size: 26px;
   }
   
   .openbtn {

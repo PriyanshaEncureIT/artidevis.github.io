@@ -9,7 +9,7 @@
     .create_quotetion_radio_btn {
         width: 30%;
         margin-top:0px;
-      
+
     }
   .digifen_inner_box {
     width: 100%;
@@ -33,7 +33,7 @@ font-size: 20px;
     padding: 2px 15px !important;
     font-size: 9px !important;
   }
- 
+
   .digifen_inner_box {
     width: 100%;
   }
@@ -50,7 +50,7 @@ font-size: 20px;
     height:30px;
   }
   .sign_up_choose_box {
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap;
     height: auto;
     width: 100%;
 }
@@ -151,9 +151,9 @@ font-size: 20px;
   }
   /* mobile responsive end */
   /* otp start*/
-  .login-page {
-     height:100% !important; 
-  }
+  /* .login-page {
+     height:100% !important;
+  } */
   .login-box {
     width:90% !important;
     padding: 27px 0px;
@@ -165,11 +165,11 @@ font-size: 20px;
 
         right: -10px;
         font-size: 35px !important;
-   
+
 }
 .owl-prev {
         left: -27px;
-        font-size: 35px !important;  
+        font-size: 35px !important;
 }
 .footer_text {
     margin-bottom: 25px;
@@ -198,6 +198,18 @@ font-size: 20px;
 .calender_user {
     width: 89%;
 }
+.success-full-page {
+  background-image: url(../Web_assets/dashboard/successfull_layer.png);
+  width: 90%;
+  height: 288px;
+
+
+  /* height: 100%; */
+  margin-top: 80px;
+}
+.digifen-top-header-successfull {
+  font-size: 13px;
+}
 }
 @media screen and (min-width: 575px) and (max-width: 767px) {
     .dashboard_subscription{
@@ -215,7 +227,7 @@ font-size: 20px;
     .calender_user {
         width: 85%;
     }
-    
+
      .dashboard_subscription{
         width:100%;
         }
@@ -274,7 +286,7 @@ font-size: 20px;
   .nav_bar_active {
     padding: 8px 15px !important;
   }
-  
+
   .desktop_menu {
     display: none;
   }
@@ -311,7 +323,7 @@ font-size: 20px;
 }
 .owl-prev {
     left: -27px;
-    font-size: 35px !important;  
+    font-size: 35px !important;
 }
   /* otp end */
 }
@@ -413,9 +425,9 @@ font-size: 20px;
         width: 100% !important;
     } */
     .artidev1_banner {
-   
+
       background-size: 122% 100%;
-      
+
   }
   .alphabet {
     width: 8%;
@@ -603,7 +615,7 @@ font-size: 20px;
     font-size: 12px;
   }
   .chip {
-  
+
     font-size: 12px;
   }
   .close_ss {
@@ -629,14 +641,14 @@ font-size: 20px;
   }
   .digifen-conatiner-dashboard {
     width: 70%;
-   
+
  }
  .discussions .discussion .name {
 
     font-size: 12px;
 }
 .message {
-  
+
     font-size: 11px !important;
 }
 .desc-contact {
@@ -661,11 +673,11 @@ font-size: 20px;
     font-size: 16px !important;
   }
   .password-eye {
-   
+
     right: 19px !important;
     top: 42px !important;
     font-size: 17px !important;
-   
+
 }
   .digifen-top-header {
     font-size: 23px !important;
@@ -687,7 +699,7 @@ font-size: 20px;
   .digifen_small_font{
        font-size:14px;
   }
-  
+
   .Sign_up_choose_pepole {
     font-size: 15px !important;
   }
@@ -715,7 +727,7 @@ font-size: 20px;
     font-size: 14px !important ;
   }
   .search_btn {
-  
+
     padding: 8px 28px 6px !important;
     height: 40px;
   }
@@ -893,7 +905,7 @@ font-size: 20px;
 }
 .btn-light-blue i{
     font-size: 11px;
-    
+
 }
 .star_box img {
     display: inline-block !important;
@@ -912,7 +924,7 @@ font-size:15px;
 }
 
 .message {
-  
+
     font-size: 14px !important;
 }
 .desc-contact {
@@ -934,9 +946,9 @@ font-size:15px;
     height:25px;
 }
 .nav-item {
-   
+
     font-size: 16px;
-   
+
 }
 .nav-item svg{
 width:18px;
@@ -959,10 +971,10 @@ height:18px;
   .form-control {
     height: 45px !important;
     font-size: 18px !important;
- 
+
   }
   .create_quotetion_radio_btn {
-   
+
     margin-top: 6px;
 }
   .small_word {
@@ -983,7 +995,7 @@ height:18px;
     font-size: 20px !important;
   }
   .password-eye {
- 
+
     right: 20px !important;
     top: 42px !important;
     font-size: 17px !important;
@@ -1118,7 +1130,7 @@ height:18px;
     font-size: 18px;
     height: 40px;
     width: 40px;
-   
+
  }
  .page-number {
     font-size: 18px;
@@ -1136,7 +1148,7 @@ height:18px;
   }
   .filter_btn {
     padding: 8px 28px;
-    border-radius: 30px;   
+    border-radius: 30px;
  }
  .filter_btn img{
     width:18px;
@@ -1149,7 +1161,7 @@ height:18px;
     font-size: 18px;
     height: 40px;
     width: 40px;
-   
+
  }
  .page-number {
     font-size: 18px;
@@ -1165,7 +1177,7 @@ height:18px;
     font-size: 18px;
 }
 .social_btn {
-   
+
     width: 50px !important;
     height: 50px !important;
 }
@@ -1192,7 +1204,7 @@ height:18px;
 }
 .btn-light-blue i{
     font-size: 11px;
-    
+
 }
 .star_box img {
     display: inline-block !important;
@@ -1206,12 +1218,12 @@ font-size:16px;
     margin: 0px 4px;
 }
 .star_box img {
-   
+
     width: 28px !important;
 }
 .inc-des-box {
     font-size: 18px;
-  
+
 }
 .fs-14 {
     font-size: 18px !important;
@@ -1232,7 +1244,7 @@ font-size:16px;
     font-size: 16px;
 }
 .message {
-  
+
     font-size: 15px !important;
 }
 .desc-contact {
@@ -1257,9 +1269,9 @@ font-size:16px;
     font-size: 15px;
 }
 .nav-item {
-   
+
     font-size: 20px;
-   
+
 }
 .nav-item svg{
 width:23px;
@@ -1271,13 +1283,13 @@ height:23px;
     margin-bottom: 32px !important;
   }
   .form-group .label {
-  
+
     font-size: 20px !important;
   }
   .nav-item {
-   
+
     font-size: 20px;
-   
+
 }
 .nav-item svg{
 width:23px;
@@ -1295,10 +1307,10 @@ height:23px;
   .form-control {
     height: 42px !important;
     font-size: 20px !important;
-  
+
   }
   .create_quotetion_radio_btn {
-  
+
     margin-top: 14px;
 }
   .small_word {
@@ -1319,7 +1331,7 @@ height:23px;
     font-size: 19px !important;
   }
   .login-box {
-    
+
     justify-content: center;
     height: 100%;
   }
@@ -1338,7 +1350,7 @@ height:23px;
     font-weight: 600 !important;
   }
   .social_btn {
-   
+
     width: 50px !important;
     height: 50px !important;
 }
@@ -1346,13 +1358,13 @@ height:23px;
     border-radius: 7px !important;
   }
 
-  
+
   .search_btn {
     margin-top: 2px;
     padding: 8px 28px 6px !important;
     height: 45px;
   }
-  
+
   .digifen_inner_box {
     width: 100%;
   }
@@ -1421,13 +1433,13 @@ height:23px;
 }
 .alphabet .active {
     font-size: 18px;
- 
+
     padding: 14px 0px 0px;
     width: 100%;
-     margin-left:auto !important; 
-  
+     margin-left:auto !important;
+
     height: 44px;
-   
+
 }
   .box svg {
     height: 18px;
@@ -1492,7 +1504,7 @@ height:23px;
   }
   .filter_btn {
     padding: 8px 28px;
-    border-radius: 30px;   
+    border-radius: 30px;
  }
  .filter_btn img{
     width:18px;
@@ -1505,7 +1517,7 @@ height:23px;
     font-size: 18px;
     height: 40px;
     width: 40px;
-   
+
  }
  .page-number {
     font-size: 18px;
@@ -1516,14 +1528,14 @@ height:23px;
     width:260px;
  }
  .digifen_small_font {
-  
+
     font-size: 16px ;
 
 }
 .form-control {
     height: 50px !important;
     font-size: 19px;
-} 
+}
 .verifyed_section  img ,.verifyed_section-filter img{
     width: 17px;
     height: 17px;
@@ -1547,19 +1559,19 @@ height:23px;
 }
 .btn-light-blue i{
     font-size: 11px;
-    
+
 }
 .verifyed_section-filter {
     padding: 5px 15px;
     font-size: 16px;
    }
    .star_box img {
-   
+
     width: 28px !important;
 }
 .inc-des-box {
     font-size: 18px;
-  
+
 }
 .fs-14 {
     font-size: 18px !important;
@@ -1580,7 +1592,7 @@ height:23px;
     font-size: 16px;
 }
 .message {
-  
+
     font-size: 15px !important;
 }
 .desc-contact {
