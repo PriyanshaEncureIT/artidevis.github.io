@@ -796,6 +796,7 @@ textarea.form-control {
   background-color: var(--color-darkslategray);
   color: var(--dark_white);
   font-size: 11px;
+  border: 1px solid #1f2e4c;
   -webkit-transition: all 0.8s ease-in-out;
   -moz-transition: all 0.8s ease-in-out;
   -o-transition: all 0.8s ease-in-out;
