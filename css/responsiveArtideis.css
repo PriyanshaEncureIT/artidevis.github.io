@@ -203,9 +203,9 @@ font-size: 20px;
     .dashboard_subscription{
         width:100%;
         }
-    .calender_width {
-        width: 100%;
-    }
+      .calender_width {
+        width: 49%;
+       }
     .alphabet .active {
         font-size: 12px;
         padding: 5px 0px 0px;
@@ -216,11 +216,15 @@ font-size: 20px;
         width: 85%;
     }
     
-    .dashboard_subscription{
+     .dashboard_subscription{
         width:100%;
         }
 .alphabet {
-    width:11%;
+  width: 28px;
+
+}
+.calender_outer_boxbox {
+  justify-content: space-evenly;
 }
   .dashbaord_topmenu {
     display: block;
@@ -402,11 +406,17 @@ font-size: 20px;
  .heart_icons img {
     margin: 0px 0px 8px 7px;
 }
+
 }
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   /* .Sign_up_choose_pepole {
         width: 100% !important;
     } */
+    .artidev1_banner {
+   
+      background-size: 122% 100%;
+      
+  }
   .alphabet {
     width: 8%;
     gap: 13px;

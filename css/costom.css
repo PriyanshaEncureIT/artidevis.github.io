@@ -1551,9 +1551,10 @@ footer {
 }
 .artidev1_banner {
   background-image: url(../Web_assets/home/landingpage_banner.png);
-  height: 571px;
+  height: auto;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  padding-bottom: 42px;
 }
 .home_page .secand_header{
   color: #FEFEFF;
