@@ -2106,10 +2106,15 @@ color: var(--color-darkslategray) !important;
     color: white;
     padding: 10px 15px;
     border: none;
-  }
+   }
   .border-radio .form-control {
     padding: 5px 20px;
-}
+   }
   .openbtn:hover {
     background-color:#444;
   }
+  .slider-arrow {
+    position: absolute;
+    right: 8px;
+    top: 2px;
+}
